@@ -1,0 +1,362 @@
+id CMU_20020319-1400_l02_chek_1_0482652_0483952
+start 0
+end 96
+numNodes 97
+numEdges 260
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.05
+node 6 0.08
+node 7 0.08
+node 8 0.08
+node 9 0.27
+node 10 0.31
+node 11 0.33
+node 12 0.33
+node 13 0.33
+node 14 0.33
+node 15 0.33
+node 16 0.34
+node 17 0.34
+node 18 0.37
+node 19 0.37
+node 20 0.37
+node 21 0.38
+node 22 0.38
+node 23 0.38
+node 24 0.38
+node 25 0.38
+node 26 0.40
+node 27 0.40
+node 28 0.42
+node 29 0.42
+node 30 0.42
+node 31 0.42
+node 32 0.42
+node 33 0.43
+node 34 0.43
+node 35 0.43
+node 36 0.43
+node 37 0.45
+node 38 0.45
+node 39 0.45
+node 40 0.45
+node 41 0.45
+node 42 0.45
+node 43 0.46
+node 44 0.46
+node 45 0.46
+node 46 0.46
+node 47 0.46
+node 48 0.46
+node 49 0.46
+node 50 0.50
+node 51 0.49
+node 52 0.49
+node 53 0.49
+node 54 0.49
+node 55 0.49
+node 56 0.49
+node 57 0.49
+node 58 0.49
+node 59 0.49
+node 60 0.49
+node 61 0.49
+node 62 0.49
+node 63 0.49
+node 64 0.49
+node 65 0.49
+node 66 0.51
+node 67 0.51
+node 68 0.51
+node 69 0.51
+node 70 0.52
+node 71 0.56
+node 72 0.56
+node 73 0.73
+node 74 0.75
+node 75 0.75
+node 76 0.78
+node 77 0.69
+node 78 0.70
+node 79 0.71
+node 80 0.71
+node 81 0.71
+node 82 0.72
+node 83 0.72
+node 84 0.73
+node 85 0.74
+node 86 0.74
+node 87 0.74
+node 88 0.75
+node 89 0.76
+node 90 0.76
+node 91 0.77
+node 92 0.77
+node 93 1.02
+node 94 1.14
+node 95 1.15
+node 96 1.29
+edge 0 1 -silence- 0 83
+edge 0 2 -silence- 0 38
+edge 0 3 -silence- 0 52
+edge 0 4 -silence- 0 71
+edge 1 8 -silence- 1091 0
+edge 2 5 -silence- 462 0
+edge 3 6 -silence- 1091 0
+edge 4 7 -silence- 1091 0
+edge 5 8 uh 892 74
+edge 6 9 what 3857 79
+edge 7 10 what's 4559 39
+edge 7 11 what's 5042 38
+edge 7 12 what's 5042 43
+edge 7 13 what's 5042 86
+edge 7 14 what's 5042 38
+edge 7 15 what's 5042 84
+edge 7 16 what's 5358 100
+edge 7 17 what's 5358 98
+edge 8 18 what's_the 5752 90
+edge 8 19 what's_the 5752 83
+edge 8 20 what's_the 5752 84
+edge 8 21 what's_the 6033 69
+edge 8 22 what's_the 6033 93
+edge 8 23 what's_the 6033 91
+edge 8 24 what's_the 6033 97
+edge 8 25 what's_the 6033 64
+edge 8 28 what's_the 7054 81
+edge 8 30 what's_the 7054 52
+edge 8 32 what's_the 7054 83
+edge 8 51 what's_the 8767 104
+edge 8 61 what's_the 8767 99
+edge 9 66 to_put 5030 101
+edge 9 70 to_put 5207 47
+edge 9 71 to_put 6047 35
+edge 9 72 to_put 6047 48
+edge 10 26 that 2228 83
+edge 10 27 that 2228 72
+edge 10 72 that 5921 55
+edge 11 26 it 1706 86
+edge 11 27 it 1706 89
+edge 11 32 it 2131 65
+edge 11 50 it 4140 39
+edge 12 29 up 1824 95
+edge 12 31 up 1824 95
+edge 12 33 up 1976 85
+edge 12 34 up 1976 59
+edge 12 35 up 1976 75
+edge 12 36 up 1976 24
+edge 12 37 up 2320 62
+edge 12 38 up 2320 79
+edge 12 39 up 2320 30
+edge 12 40 up 2320 105
+edge 12 41 up 2320 61
+edge 12 42 up 2320 46
+edge 12 43 up 2559 50
+edge 12 44 up 2559 112
+edge 12 45 up 2559 108
+edge 12 46 up 2559 72
+edge 12 47 up 2559 86
+edge 12 48 up 2559 107
+edge 12 49 up 2559 118
+edge 13 66 up_and 3636 98
+edge 14 22 a 1119 103
+edge 14 23 a 1119 101
+edge 14 51 a 3897 93
+edge 14 52 a 3897 70
+edge 14 57 a 3897 114
+edge 14 58 a 3897 103
+edge 14 59 a 3897 88
+edge 14 60 a 3897 88
+edge 14 61 a 3897 96
+edge 14 63 a 3897 112
+edge 14 65 a 3897 109
+edge 15 66 up_in 3636 101
+edge 15 68 up_in 3636 47
+edge 16 73 but_that's 7209 80
+edge 16 74 but_that's 7603 80
+edge 16 76 but_that's 8271 104
+edge 16 85 but_that's 7375 124
+edge 16 87 but_that's 7375 93
+edge 16 90 but_that's 7852 85
+edge 17 78 but_that 6643 92
+edge 17 79 but_that 6895 59
+edge 17 81 but_that 6895 75
+edge 18 61 per 2452 103
+edge 19 66 put 2673 105
+edge 19 69 put 2673 110
+edge 19 70 put 2850 32
+edge 19 71 put 3690 30
+edge 19 72 put 3690 42
+edge 20 78 for_that 6240 93
+edge 21 66 but 2610 109
+edge 21 67 but 2610 64
+edge 22 73 but_that's 6028 80
+edge 22 74 but_that's 6422 80
+edge 22 76 but_that's 7090 104
+edge 22 85 but_that's 6194 124
+edge 22 87 but_that's 6194 93
+edge 22 90 but_that's 6671 85
+edge 23 78 but_that 5462 92
+edge 23 79 but_that 5714 59
+edge 23 81 but_that 5714 75
+edge 24 78 it_that 5824 91
+edge 25 51 to 2523 66
+edge 26 73 but_that's 5551 80
+edge 26 74 but_that's 5945 80
+edge 26 76 but_that's 6613 104
+edge 26 85 but_that's 5717 124
+edge 26 87 but_that's 5717 93
+edge 26 90 but_that's 6194 85
+edge 27 78 but_that 4985 92
+edge 27 79 but_that 5237 59
+edge 27 81 but_that 5237 75
+edge 28 78 that_that 4739 98
+edge 29 78 but_that 4604 92
+edge 29 79 but_that 4856 59
+edge 29 81 but_that 4856 75
+edge 30 51 the 1358 80
+edge 30 52 the 1358 69
+edge 30 53 the 1358 96
+edge 30 54 the 1358 106
+edge 30 55 the 1358 81
+edge 30 56 the 1358 62
+edge 30 57 the 1358 96
+edge 30 58 the 1358 109
+edge 30 59 the 1358 120
+edge 30 60 the 1358 89
+edge 30 61 the 1358 95
+edge 30 62 the 1358 98
+edge 30 63 the 1358 118
+edge 30 64 the 1358 98
+edge 30 65 the 1358 105
+edge 31 73 but_that's 5170 80
+edge 31 74 but_that's 5564 80
+edge 31 76 but_that's 6232 104
+edge 31 85 but_that's 5336 124
+edge 31 87 but_that's 5336 93
+edge 31 90 but_that's 5813 85
+edge 32 75 without 5909 62
+edge 32 82 without 5153 94
+edge 32 83 without 5153 63
+edge 33 78 that_that 4444 98
+edge 34 78 with_that 4631 116
+edge 35 75 without 5643 62
+edge 35 82 without 4887 94
+edge 35 83 without 4887 63
+edge 36 51 the 1063 80
+edge 36 52 the 1063 69
+edge 36 53 the 1063 96
+edge 36 54 the 1063 106
+edge 36 55 the 1063 81
+edge 36 56 the 1063 62
+edge 36 57 the 1063 96
+edge 36 58 the 1063 109
+edge 36 59 the 1063 120
+edge 36 60 the 1063 89
+edge 36 61 the 1063 95
+edge 36 62 the 1063 98
+edge 36 63 the 1063 118
+edge 36 64 the 1063 98
+edge 36 65 the 1063 105
+edge 37 67 it 1185 39
+edge 38 78 is_that 4449 96
+edge 39 51 a 762 93
+edge 39 52 a 762 70
+edge 39 57 a 762 114
+edge 39 58 a 762 103
+edge 39 59 a 762 88
+edge 39 60 a 762 88
+edge 39 61 a 762 96
+edge 39 63 a 762 112
+edge 39 65 a 762 109
+edge 40 78 it_that 4037 91
+edge 41 82 about 4842 93
+edge 41 83 about 4842 56
+edge 42 66 at 1325 100
+edge 42 68 at 1325 29
+edge 43 78 that 4241 95
+edge 43 79 that 4493 51
+edge 43 81 that 4493 60
+edge 44 85 death 4650 120
+edge 44 86 death 4650 76
+edge 44 88 death 4844 89
+edge 44 89 death 5050 93
+edge 44 90 death 5050 81
+edge 44 91 death 5250 100
+edge 44 92 death 5250 31
+edge 45 84 dust 4530 87
+edge 45 90 dust 5193 79
+edge 46 87 that's 4973 100
+edge 47 78 does 4090 98
+edge 48 80 dot 4186 65
+edge 49 82 doubt 4333 89
+edge 50 78 does 3125 98
+edge 51 85 death 3877 120
+edge 51 86 death 3877 76
+edge 51 88 death 4071 89
+edge 51 89 death 4277 93
+edge 51 90 death 4277 81
+edge 51 91 death 4477 100
+edge 51 92 death 4477 31
+edge 52 78 that 3483 95
+edge 52 79 that 3735 51
+edge 52 81 that 3735 60
+edge 53 87 dots 3987 87
+edge 53 90 dots 4462 79
+edge 54 88 duct 4236 89
+edge 55 87 that's 4215 100
+edge 56 77 data 3576 52
+edge 57 84 dust 3756 87
+edge 57 90 dust 4419 79
+edge 58 80 duck 3438 85
+edge 59 82 doubt 3567 89
+edge 60 78 does 3316 98
+edge 61 80 dot 3416 65
+edge 62 88 depth 4400 87
+edge 63 78 dat 3479 59
+edge 64 80 debt 3681 85
+edge 65 77 dutch 3056 85
+edge 66 80 dot 3060 65
+edge 67 78 does 2940 98
+edge 68 78 that 3048 95
+edge 68 79 that 3300 51
+edge 68 81 that 3300 60
+edge 69 85 death 3502 120
+edge 69 86 death 3502 76
+edge 69 88 death 3696 89
+edge 69 89 death 3902 93
+edge 69 90 death 3902 81
+edge 69 91 death 4102 100
+edge 69 92 death 4102 31
+edge 70 78 that 2833 95
+edge 70 79 that 3085 51
+edge 70 81 that 3085 60
+edge 71 82 up 2663 77
+edge 72 82 out 2375 90
+edge 72 83 out 2375 64
+edge 73 95 those 6540 26
+edge 74 94 less 6127 23
+edge 75 94 us 5926 20
+edge 76 94 else 5359 14
+edge 77 95 files 6904 16
+edge 78 95 files 6723 16
+edge 79 95 sounds 7058 24
+edge 80 95 files 6481 16
+edge 81 95 those 6872 26
+edge 82 95 files 6326 16
+edge 83 95 those 6710 26
+edge 84 95 files 6181 16
+edge 85 95 wells 6096 24
+edge 86 95 those 6382 26
+edge 87 95 files 5996 16
+edge 88 95 files 5794 16
+edge 89 95 hours 5986 17
+edge 90 94 us 5645 20
+edge 91 94 else 5556 14
+edge 92 93 of 3754 29
+edge 93 96 -silence- 2514 0
+edge 94 96 -silence- 374 0
+edge 95 96 -silence- 238 0

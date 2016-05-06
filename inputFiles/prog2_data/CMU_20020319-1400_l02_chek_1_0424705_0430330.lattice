@@ -1,0 +1,329 @@
+id CMU_20020319-1400_l02_chek_1_0424705_0430330
+start 0
+end 114
+numNodes 115
+numEdges 209
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.03
+node 6 0.03
+node 7 0.03
+node 8 0.30
+node 9 0.30
+node 10 0.30
+node 11 0.30
+node 12 0.30
+node 13 0.30
+node 14 0.30
+node 15 0.22
+node 16 0.30
+node 17 0.41
+node 18 0.44
+node 19 0.46
+node 20 0.46
+node 21 0.47
+node 22 0.56
+node 23 0.61
+node 24 0.62
+node 25 0.62
+node 26 0.43
+node 27 0.89
+node 28 0.93
+node 29 0.94
+node 30 0.60
+node 31 0.60
+node 32 0.60
+node 33 1.24
+node 34 0.91
+node 35 0.92
+node 36 0.98
+node 37 1.30
+node 38 1.30
+node 39 1.30
+node 40 1.30
+node 41 1.30
+node 42 1.42
+node 43 1.42
+node 44 1.42
+node 45 1.42
+node 46 1.42
+node 47 1.86
+node 48 1.87
+node 49 1.88
+node 50 1.89
+node 51 1.89
+node 52 1.95
+node 53 2.03
+node 54 2.05
+node 55 1.99
+node 56 2.00
+node 57 2.00
+node 58 2.32
+node 59 2.02
+node 60 2.41
+node 61 2.34
+node 62 2.34
+node 63 2.34
+node 64 2.34
+node 65 2.36
+node 66 2.37
+node 67 2.40
+node 68 2.42
+node 69 2.62
+node 70 2.62
+node 71 3.10
+node 72 3.08
+node 73 3.08
+node 74 3.08
+node 75 3.08
+node 76 3.08
+node 77 3.08
+node 78 3.08
+node 79 3.08
+node 80 3.08
+node 81 3.08
+node 82 3.08
+node 83 3.08
+node 84 3.08
+node 85 3.34
+node 86 3.35
+node 87 3.35
+node 88 3.37
+node 89 3.40
+node 90 3.41
+node 91 3.41
+node 92 3.55
+node 93 3.55
+node 94 3.55
+node 95 3.53
+node 96 3.54
+node 97 4.51
+node 98 4.53
+node 99 4.51
+node 100 4.54
+node 101 4.76
+node 102 4.70
+node 103 4.70
+node 104 4.70
+node 105 4.74
+node 106 5.01
+node 107 4.98
+node 108 4.98
+node 109 5.03
+node 110 5.04
+node 111 5.38
+node 112 5.39
+node 113 5.40
+node 114 5.61
+edge 0 1 -silence- 0 85
+edge 0 2 -silence- 0 86
+edge 0 3 -silence- 0 91
+edge 0 4 -silence- 0 71
+edge 1 6 -silence- 186 0
+edge 2 5 -silence- 186 0
+edge 3 8 what's_the 4556 70
+edge 3 9 what's_the 4556 82
+edge 3 10 what's_the 4556 104
+edge 3 11 what's_the 4556 118
+edge 3 12 what's_the 4556 25
+edge 3 13 what's_the 4556 89
+edge 3 14 what's_the 4556 68
+edge 3 17 what's_the 7226 63
+edge 4 7 -silence- 186 0
+edge 5 16 most_of 4657 21
+edge 5 18 most_of 7927 42
+edge 5 20 most_of 8395 63
+edge 6 17 most_of_the 6869 72
+edge 7 15 what's 3191 80
+edge 8 30 this_is 6893 147
+edge 9 19 diff 3202 67
+edge 9 20 diff 3202 46
+edge 9 21 diff 3439 47
+edge 10 24 division 7013 90
+edge 10 25 division 7013 136
+edge 11 23 differs 6828 136
+edge 12 22 difference 5937 14
+edge 12 30 difference 7098 144
+edge 12 32 difference 7098 98
+edge 13 30 that_was 6754 141
+edge 14 23 there's_a 7229 138
+edge 15 26 that_there 4327 13
+edge 16 26 them 2848 54
+edge 17 30 is 4447 129
+edge 17 31 is 4447 69
+edge 17 32 is 4447 94
+edge 18 30 his 3591 140
+edge 19 30 as 3120 143
+edge 20 30 is 3094 129
+edge 20 31 is 3094 69
+edge 20 32 is 3094 94
+edge 21 27 between 8773 38
+edge 21 28 between 9248 41
+edge 21 29 between 9344 50
+edge 22 27 between 6502 38
+edge 22 28 between 6977 41
+edge 22 29 between 7073 50
+edge 23 36 trina 5068 58
+edge 24 35 train 4823 63
+edge 25 36 trina 4831 58
+edge 26 30 is 3886 129
+edge 26 31 is 3886 69
+edge 26 32 is 3886 94
+edge 27 33 them 3706 35
+edge 28 36 uh 481 49
+edge 29 37 um 2657 64
+edge 29 38 um 2657 92
+edge 29 39 um 2657 59
+edge 29 40 um 2657 65
+edge 29 41 um 2657 45
+edge 30 36 trina 5323 58
+edge 31 34 trained 5453 61
+edge 32 35 train 5315 63
+edge 33 45 -silence- 666 0
+edge 34 37 um 3041 64
+edge 34 38 um 3041 92
+edge 34 39 um 3041 59
+edge 34 40 um 3041 65
+edge 34 41 um 3041 45
+edge 35 37 um 2889 64
+edge 35 38 um 2889 92
+edge 35 39 um 2889 59
+edge 35 40 um 2889 65
+edge 35 41 um 2889 45
+edge 36 37 um 2429 64
+edge 36 38 um 2429 92
+edge 36 39 um 2429 59
+edge 36 40 um 2429 65
+edge 36 41 um 2429 45
+edge 37 42 -silence- 532 0
+edge 38 46 -silence- 532 0
+edge 39 43 -silence- 532 0
+edge 40 44 -silence- 532 0
+edge 41 45 -silence- 532 0
+edge 42 47 -silence- 1474 0
+edge 43 51 -silence- 1921 0
+edge 44 50 -silence- 1921 0
+edge 45 49 -silence- 1737 0
+edge 46 48 -silence- 1598 7
+edge 47 54 oh 3524 54
+edge 47 56 oh 2455 115
+edge 47 57 oh 2455 102
+edge 48 58 of_this 7858 75
+edge 49 52 a 1636 35
+edge 49 56 a 2344 114
+edge 49 57 a 2344 58
+edge 50 53 i'll 2795 77
+edge 51 58 i_was 7730 106
+edge 52 55 a 653 35
+edge 52 56 a 834 114
+edge 52 57 a 834 58
+edge 53 61 list 4514 45
+edge 53 62 list 4514 90
+edge 53 63 list 4514 108
+edge 53 64 list 4514 37
+edge 53 65 list 4902 18
+edge 54 58 this 4431 71
+edge 55 59 a 723 58
+edge 56 60 lists 6578 98
+edge 57 61 list 5087 45
+edge 57 62 list 5087 90
+edge 57 63 list 5087 108
+edge 57 64 list 5087 37
+edge 57 65 list 5475 18
+edge 58 70 -silence- 2779 0
+edge 59 61 list 4696 45
+edge 59 62 list 4696 90
+edge 59 63 list 4696 108
+edge 59 64 list 4696 37
+edge 59 65 list 5084 18
+edge 60 70 -silence- 1017 0
+edge 61 66 a 735 76
+edge 62 70 -silence- 2540 0
+edge 63 69 -silence- 2540 0
+edge 64 67 the 1554 77
+edge 65 68 of 1550 89
+edge 66 70 -silence- 1938 0
+edge 67 70 -silence- 1231 0
+edge 68 70 -silence- 866 0
+edge 69 71 commands 5213 67
+edge 70 72 command 4501 53
+edge 70 73 command 4501 92
+edge 70 74 command 4501 102
+edge 70 75 command 4501 59
+edge 70 76 command 4501 38
+edge 70 77 command 4501 90
+edge 70 78 command 4501 64
+edge 70 79 command 4501 115
+edge 70 80 command 4501 72
+edge 70 81 command 4501 79
+edge 70 82 command 4501 87
+edge 70 83 command 4501 130
+edge 70 84 command 4501 67
+edge 71 89 and_uh 3523 42
+edge 71 92 and_uh 5467 84
+edge 71 93 and_uh 5467 81
+edge 71 94 and_uh 5467 88
+edge 72 85 in 3256 42
+edge 73 96 and_they're 5813 100
+edge 74 94 and_and_uh 5758 91
+edge 75 89 and_it 3831 55
+edge 76 86 and 3215 77
+edge 76 87 and 3215 67
+edge 77 96 and_there 5908 98
+edge 78 88 and_the 3556 46
+edge 79 96 anna 5594 86
+edge 80 90 in_a 3786 47
+edge 80 91 in_a 3786 53
+edge 80 96 in_a 5697 96
+edge 81 89 and_uh 3805 42
+edge 81 92 and_uh 5749 84
+edge 81 93 and_uh 5749 81
+edge 81 94 and_uh 5749 88
+edge 82 91 and_a 3683 56
+edge 82 96 and_a 5594 91
+edge 83 96 ana 5594 85
+edge 84 88 and_i 3384 56
+edge 85 96 uh 2670 82
+edge 86 96 ah 2525 90
+edge 87 96 uh 2525 82
+edge 88 96 uh 2293 82
+edge 89 96 uh 1970 82
+edge 90 95 a 1845 85
+edge 91 96 uh 1856 82
+edge 92 98 -silence- 2270 0
+edge 93 97 -silence- 2004 0
+edge 94 99 -silence- 2004 0
+edge 95 99 -silence- 2296 0
+edge 96 99 -silence- 2133 0
+edge 97 100 e. 682 26
+edge 98 101 t._i. 3444 52
+edge 99 102 d. 2946 48
+edge 99 103 d. 2946 51
+edge 99 104 d. 2946 28
+edge 100 102 d. 2574 48
+edge 100 103 d. 2574 51
+edge 100 104 d. 2574 28
+edge 101 106 r. 3142 33
+edge 101 107 r. 2460 83
+edge 101 109 r. 3597 90
+edge 102 105 i. 579 44
+edge 103 107 i._r. 3001 62
+edge 103 108 i._r. 3001 79
+edge 103 109 i._r. 4138 85
+edge 104 106 r. 3774 33
+edge 104 107 r. 3092 83
+edge 104 109 r. 4229 90
+edge 105 107 i._r. 2568 62
+edge 105 108 i._r. 2568 79
+edge 105 109 i._r. 3705 85
+edge 106 110 a 607 62
+edge 107 113 command 6771 22
+edge 108 111 commands 6605 21
+edge 109 112 man 5806 14
+edge 110 112 man 5614 14
+edge 111 114 -silence- 1486 0
+edge 112 114 -silence- 1247 0
+edge 113 114 -silence- 1055 0

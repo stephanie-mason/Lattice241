@@ -1,0 +1,470 @@
+id CMU_20020319-1400_l02_chek_1_0488155_0490986
+start 0
+end 148
+numNodes 149
+numEdges 316
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.00
+node 6 0.00
+node 7 0.00
+node 8 0.00
+node 9 0.00
+node 10 0.00
+node 11 0.00
+node 12 0.00
+node 13 0.00
+node 14 0.00
+node 15 0.00
+node 16 0.00
+node 17 0.00
+node 18 0.00
+node 19 0.00
+node 20 0.00
+node 21 0.00
+node 22 0.00
+node 23 0.00
+node 24 0.00
+node 25 0.00
+node 26 0.09
+node 27 0.09
+node 28 0.10
+node 29 0.10
+node 30 0.10
+node 31 0.10
+node 32 0.10
+node 33 0.10
+node 34 0.10
+node 35 0.10
+node 36 0.10
+node 37 0.11
+node 38 0.11
+node 39 0.11
+node 40 0.11
+node 41 0.11
+node 42 0.13
+node 43 0.13
+node 44 0.13
+node 45 0.13
+node 46 0.13
+node 47 0.13
+node 48 0.14
+node 49 0.14
+node 50 0.20
+node 51 0.20
+node 52 0.20
+node 53 0.21
+node 54 0.21
+node 55 0.22
+node 56 0.23
+node 57 0.24
+node 58 0.24
+node 59 0.24
+node 60 0.25
+node 61 0.26
+node 62 0.28
+node 63 0.45
+node 64 0.26
+node 65 0.27
+node 66 0.30
+node 67 0.57
+node 68 0.59
+node 69 0.55
+node 70 0.56
+node 71 0.56
+node 72 0.56
+node 73 0.93
+node 74 0.93
+node 75 0.93
+node 76 0.93
+node 77 0.93
+node 78 0.93
+node 79 0.94
+node 80 0.95
+node 81 0.95
+node 82 0.95
+node 83 0.95
+node 84 0.95
+node 85 0.96
+node 86 0.99
+node 87 1.04
+node 88 1.00
+node 89 1.01
+node 90 1.02
+node 91 1.03
+node 92 1.39
+node 93 1.39
+node 94 1.41
+node 95 1.46
+node 96 1.48
+node 97 1.84
+node 98 1.87
+node 99 1.88
+node 100 1.88
+node 101 1.88
+node 102 1.88
+node 103 1.88
+node 104 1.88
+node 105 1.88
+node 106 1.88
+node 107 1.88
+node 108 1.90
+node 109 1.93
+node 110 2.11
+node 111 2.11
+node 112 2.12
+node 113 2.12
+node 114 2.12
+node 115 2.12
+node 116 2.12
+node 117 2.14
+node 118 2.10
+node 119 2.19
+node 120 2.32
+node 121 2.42
+node 122 2.44
+node 123 2.45
+node 124 2.45
+node 125 2.45
+node 126 2.46
+node 127 2.47
+node 128 2.56
+node 129 2.56
+node 130 2.56
+node 131 2.56
+node 132 2.56
+node 133 2.58
+node 134 2.60
+node 135 2.60
+node 136 2.60
+node 137 2.61
+node 138 2.61
+node 139 2.66
+node 140 2.58
+node 141 2.59
+node 142 2.60
+node 143 2.63
+node 144 2.64
+node 145 2.65
+node 146 2.78
+node 147 2.77
+node 148 2.81
+edge 0 1 -silence- 0 91
+edge 0 2 -silence- 0 122
+edge 0 3 -silence- 0 40
+edge 0 4 -silence- 0 116
+edge 0 5 -silence- 0 49
+edge 0 6 -silence- 0 35
+edge 0 7 -silence- 0 89
+edge 0 8 -silence- 0 51
+edge 0 9 -silence- 0 104
+edge 0 10 -silence- 0 53
+edge 0 11 -silence- 0 58
+edge 0 12 -silence- 0 44
+edge 0 13 -silence- 0 50
+edge 0 14 -silence- 0 43
+edge 0 15 -silence- 0 55
+edge 0 16 -silence- 0 46
+edge 0 17 -silence- 0 59
+edge 0 18 -silence- 0 117
+edge 0 19 -silence- 0 117
+edge 0 20 -silence- 0 84
+edge 0 21 -silence- 0 72
+edge 0 22 -silence- 0 76
+edge 0 23 -silence- 0 50
+edge 0 24 -silence- 0 70
+edge 0 25 -silence- 0 81
+edge 1 50 -silence- 2524 0
+edge 2 43 -silence- 630 0
+edge 3 40 -silence- 308 0
+edge 4 44 -silence- 630 0
+edge 5 45 -silence- 630 0
+edge 6 31 -silence- 198 0
+edge 7 48 -silence- 820 0
+edge 8 35 -silence- 198 0
+edge 9 49 -silence- 820 0
+edge 10 33 -silence- 198 0
+edge 11 41 -silence- 308 0
+edge 12 47 -silence- 630 0
+edge 13 46 -silence- 630 0
+edge 14 36 -silence- 198 2
+edge 15 27 -silence- 133 0
+edge 16 42 -silence- 630 1
+edge 17 29 -silence- 198 0
+edge 18 39 -silence- 308 0
+edge 19 28 -silence- 198 0
+edge 20 34 -silence- 198 0
+edge 21 38 -silence- 308 0
+edge 22 30 -silence- 198 0
+edge 23 26 -silence- 133 0
+edge 24 37 -silence- 308 0
+edge 25 32 -silence- 198 0
+edge 26 62 that's 3943 92
+edge 27 57 that 3081 77
+edge 28 66 likes 3885 81
+edge 29 59 like 2807 24
+edge 29 61 like 3210 92
+edge 29 64 like 3210 85
+edge 30 56 their 2974 46
+edge 31 51 the 2072 80
+edge 31 52 the 2072 32
+edge 31 54 the 2270 101
+edge 31 55 the 2523 56
+edge 32 65 like_i 3529 89
+edge 33 55 they 2474 90
+edge 34 65 like_a 3529 72
+edge 35 60 this 3472 61
+edge 36 58 but 2929 44
+edge 36 60 but 3209 89
+edge 37 62 let's 3762 91
+edge 38 57 i'd 2896 88
+edge 39 63 lexus 6497 41
+edge 40 55 i 2296 93
+edge 41 57 my 2966 69
+edge 42 62 it's 3589 94
+edge 43 67 assistant 8495 87
+edge 44 71 existing 8632 41
+edge 45 53 a 1883 61
+edge 46 60 it 2937 96
+edge 47 64 @reject@ 3346 80
+edge 48 66 x. 3546 79
+edge 49 63 texas 6124 36
+edge 50 69 system 6617 126
+edge 50 70 system 6823 77
+edge 50 71 system 6823 72
+edge 50 72 system 6823 135
+edge 51 71 existing 7129 41
+edge 52 64 the 1699 56
+edge 53 69 system 6322 126
+edge 53 70 system 6528 77
+edge 53 71 system 6528 72
+edge 53 72 system 6528 135
+edge 54 67 assistant 6656 87
+edge 55 69 system 6063 126
+edge 55 70 system 6269 77
+edge 55 71 system 6269 72
+edge 55 72 system 6269 135
+edge 56 69 system 5785 126
+edge 56 70 system 5991 77
+edge 56 71 system 5991 72
+edge 56 72 system 5991 135
+edge 57 69 system 5495 126
+edge 57 70 system 5701 77
+edge 57 71 system 5701 72
+edge 57 72 system 5701 135
+edge 58 65 a 802 61
+edge 59 66 the 1611 56
+edge 60 69 system 5210 126
+edge 60 70 system 5416 77
+edge 60 71 system 5416 72
+edge 60 72 system 5416 135
+edge 61 68 systems 5996 91
+edge 62 69 system 4633 126
+edge 62 70 system 4839 77
+edge 62 71 system 4839 72
+edge 62 72 system 4839 135
+edge 63 67 and 2248 88
+edge 64 69 system 5011 126
+edge 64 70 system 5217 77
+edge 64 71 system 5217 72
+edge 64 72 system 5217 135
+edge 65 69 system 4833 126
+edge 65 70 system 5039 77
+edge 65 71 system 5039 72
+edge 65 72 system 5039 135
+edge 66 69 system 4266 126
+edge 66 70 system 4472 77
+edge 66 71 system 4472 72
+edge 66 72 system 4472 135
+edge 67 73 files 5070 42
+edge 67 74 files 5070 52
+edge 67 75 files 5070 51
+edge 67 76 files 5070 60
+edge 67 77 files 5070 59
+edge 67 78 files 5070 53
+edge 67 79 files 5374 30
+edge 67 80 files 5677 43
+edge 67 81 files 5677 44
+edge 67 82 files 5677 35
+edge 67 83 files 5677 57
+edge 67 84 files 5677 52
+edge 67 85 files 6000 55
+edge 67 87 files 8080 104
+edge 67 88 files 7061 103
+edge 68 73 files 4698 42
+edge 68 74 files 4698 52
+edge 68 75 files 4698 51
+edge 68 76 files 4698 60
+edge 68 77 files 4698 59
+edge 68 78 files 4698 53
+edge 68 79 files 5002 30
+edge 68 80 files 5305 43
+edge 68 81 files 5305 44
+edge 68 82 files 5305 35
+edge 68 83 files 5305 57
+edge 68 84 files 5305 52
+edge 68 85 files 5628 55
+edge 68 87 files 7708 104
+edge 68 88 files 6689 103
+edge 69 88 tiles 7592 97
+edge 70 74 file 5582 49
+edge 70 83 file 6206 39
+edge 70 86 file 7420 105
+edge 71 73 files 5297 42
+edge 71 74 files 5297 52
+edge 71 75 files 5297 51
+edge 71 76 files 5297 60
+edge 71 77 files 5297 59
+edge 71 78 files 5297 53
+edge 71 79 files 5601 30
+edge 71 80 files 5904 43
+edge 71 81 files 5904 44
+edge 71 82 files 5904 35
+edge 71 83 files 5904 57
+edge 71 84 files 5904 52
+edge 71 85 files 6227 55
+edge 71 87 files 8307 104
+edge 71 88 files 7288 103
+edge 72 88 file's 7288 98
+edge 73 88 to 1945 111
+edge 74 88 the 1864 86
+edge 75 90 that 2350 100
+edge 76 88 @reject@ 2027 95
+edge 77 90 this 2542 82
+edge 78 91 with 2620 109
+edge 79 91 and 2544 99
+edge 80 89 in 1619 105
+edge 81 88 or 1243 102
+edge 82 88 are 1243 110
+edge 83 88 a 1230 94
+edge 84 90 of 1708 95
+edge 85 90 it 1429 117
+edge 86 95 configuration 9519 41
+edge 87 92 figures 6448 45
+edge 87 93 figures 6448 36
+edge 87 94 figures 7005 89
+edge 88 95 configuration 9288 41
+edge 89 95 configuration 9083 41
+edge 90 95 configuration 8836 41
+edge 91 95 configuration 8652 41
+edge 92 95 in 1441 88
+edge 93 96 and 1905 88
+edge 94 97 files 7751 30
+edge 94 98 files 8481 35
+edge 94 99 files 8715 60
+edge 94 100 files 8715 95
+edge 94 101 files 8715 86
+edge 94 102 files 8715 79
+edge 94 103 files 8715 65
+edge 94 104 files 8715 97
+edge 94 105 files 8715 52
+edge 94 106 files 8715 42
+edge 94 107 files 8715 83
+edge 95 97 files 6386 30
+edge 95 98 files 7116 35
+edge 95 99 files 7350 60
+edge 95 100 files 7350 95
+edge 95 101 files 7350 86
+edge 95 102 files 7350 79
+edge 95 103 files 7350 65
+edge 95 104 files 7350 97
+edge 95 105 files 7350 52
+edge 95 106 files 7350 42
+edge 95 107 files 7350 83
+edge 96 97 files 6018 30
+edge 96 98 files 6748 35
+edge 96 99 files 6982 60
+edge 96 100 files 6982 95
+edge 96 101 files 6982 86
+edge 96 102 files 6982 79
+edge 96 103 files 6982 65
+edge 96 104 files 6982 97
+edge 96 105 files 6982 52
+edge 96 106 files 6982 42
+edge 96 107 files 6982 83
+edge 97 109 and 2345 67
+edge 98 108 are 797 59
+edge 99 113 -silence- 4231 0
+edge 100 112 -silence- 4231 0
+edge 101 118 -silence- 3933 0
+edge 102 110 -silence- 4078 9
+edge 103 114 -silence- 4231 0
+edge 104 117 -silence- 4572 0
+edge 105 116 -silence- 4231 0
+edge 106 111 -silence- 4078 0
+edge 107 115 -silence- 4231 0
+edge 108 118 -silence- 3514 0
+edge 109 118 -silence- 2910 0
+edge 110 121 does 5615 20
+edge 111 119 to 1350 94
+edge 112 123 isn't_it 5990 10
+edge 113 146 @reject@ 13446 11
+edge 114 119 they 1169 65
+edge 114 146 they 14168 32
+edge 115 123 is_it 6022 24
+edge 116 120 is 3729 54
+edge 116 122 is 6135 27
+edge 117 137 easily 9242 18
+edge 118 124 usually 5949 52
+edge 118 125 usually 5949 52
+edge 118 126 usually 6194 57
+edge 118 127 usually 6450 62
+edge 118 128 usually 8517 41
+edge 118 129 usually 8517 53
+edge 118 130 usually 8517 64
+edge 118 131 usually 8517 51
+edge 118 132 usually 8517 49
+edge 118 133 usually 8920 43
+edge 118 134 usually 9332 49
+edge 118 135 usually 9332 62
+edge 118 136 usually 9332 66
+edge 118 137 usually 9512 29
+edge 118 138 usually 9512 40
+edge 118 139 usually 10540 54
+edge 119 124 usually 4541 52
+edge 119 125 usually 4541 52
+edge 119 126 usually 4786 57
+edge 119 127 usually 5042 62
+edge 119 128 usually 7109 41
+edge 119 129 usually 7109 53
+edge 119 130 usually 7109 64
+edge 119 131 usually 7109 51
+edge 119 132 usually 7109 49
+edge 119 133 usually 7512 43
+edge 119 134 usually 7924 49
+edge 119 135 usually 7924 62
+edge 119 136 usually 7924 66
+edge 119 137 usually 8104 29
+edge 119 138 usually 8104 40
+edge 119 139 usually 9132 54
+edge 120 146 @reject@ 9506 11
+edge 121 144 it 4721 16
+edge 122 147 -silence- 7333 0
+edge 123 147 -silence- 7136 0
+edge 124 140 be 2977 29
+edge 125 144 the 4106 35
+edge 126 144 if 3820 34
+edge 127 142 yeah 3040 7
+edge 128 145 it's 1792 31
+edge 129 144 it 1534 16
+edge 130 146 @reject@ 4581 11
+edge 131 141 uh 751 15
+edge 132 143 [laugh] 1542 6
+edge 133 144 is 1230 27
+edge 134 144 i 852 28
+edge 135 146 see 3663 23
+edge 136 146 say 3626 22
+edge 137 147 -silence- 3413 0
+edge 138 144 a 628 36
+edge 139 146 they 2486 32
+edge 140 147 -silence- 4026 0
+edge 141 147 -silence- 3807 0
+edge 142 147 -silence- 3597 0
+edge 143 147 -silence- 3001 0
+edge 144 147 -silence- 2826 0
+edge 145 147 -silence- 2644 0
+edge 146 148 -silence- 286 0
+edge 147 148 -silence- 445 0

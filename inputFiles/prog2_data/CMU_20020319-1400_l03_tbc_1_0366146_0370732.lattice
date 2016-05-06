@@ -1,0 +1,762 @@
+id CMU_20020319-1400_l03_tbc_1_0366146_0370732
+start 0
+end 234
+numNodes 235
+numEdges 522
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.00
+node 6 0.00
+node 7 0.00
+node 8 0.00
+node 9 0.00
+node 10 0.00
+node 11 0.00
+node 12 0.00
+node 13 0.00
+node 14 0.00
+node 15 0.00
+node 16 0.00
+node 17 0.00
+node 18 0.06
+node 19 0.06
+node 20 0.06
+node 21 0.07
+node 22 0.07
+node 23 0.07
+node 24 0.07
+node 25 0.07
+node 26 0.07
+node 27 0.08
+node 28 0.08
+node 29 0.08
+node 30 0.09
+node 31 0.09
+node 32 0.09
+node 33 0.11
+node 34 0.18
+node 35 0.10
+node 36 0.19
+node 37 0.20
+node 38 0.21
+node 39 0.21
+node 40 0.22
+node 41 0.22
+node 42 0.25
+node 43 0.22
+node 44 0.38
+node 45 0.39
+node 46 0.37
+node 47 0.54
+node 48 0.55
+node 49 0.55
+node 50 0.55
+node 51 0.55
+node 52 0.55
+node 53 0.56
+node 54 0.56
+node 55 0.56
+node 56 0.56
+node 57 0.56
+node 58 0.56
+node 59 0.56
+node 60 0.56
+node 61 0.56
+node 62 0.58
+node 63 0.58
+node 64 0.80
+node 65 0.80
+node 66 0.80
+node 67 0.80
+node 68 0.80
+node 69 1.25
+node 70 1.25
+node 71 1.25
+node 72 1.25
+node 73 1.25
+node 74 1.25
+node 75 1.25
+node 76 1.25
+node 77 1.25
+node 78 1.25
+node 79 1.25
+node 80 1.25
+node 81 1.25
+node 82 1.25
+node 83 1.25
+node 84 1.26
+node 85 1.26
+node 86 1.26
+node 87 1.46
+node 88 1.46
+node 89 1.46
+node 90 1.46
+node 91 1.46
+node 92 1.46
+node 93 1.46
+node 94 1.46
+node 95 1.46
+node 96 1.46
+node 97 1.46
+node 98 1.46
+node 99 1.46
+node 100 1.46
+node 101 1.46
+node 102 1.83
+node 103 1.85
+node 104 1.85
+node 105 1.85
+node 106 1.85
+node 107 1.88
+node 108 1.88
+node 109 1.88
+node 110 1.88
+node 111 1.89
+node 112 1.89
+node 113 1.89
+node 114 1.89
+node 115 1.90
+node 116 1.91
+node 117 1.93
+node 118 1.93
+node 119 1.94
+node 120 1.94
+node 121 1.94
+node 122 1.95
+node 123 2.02
+node 124 2.05
+node 125 2.06
+node 126 2.08
+node 127 2.08
+node 128 2.35
+node 129 2.07
+node 130 2.14
+node 131 2.31
+node 132 2.46
+node 133 2.26
+node 134 2.49
+node 135 2.49
+node 136 2.49
+node 137 2.49
+node 138 2.49
+node 139 2.49
+node 140 2.49
+node 141 2.49
+node 142 2.49
+node 143 2.75
+node 144 2.75
+node 145 2.75
+node 146 2.75
+node 147 2.75
+node 148 2.75
+node 149 2.75
+node 150 2.75
+node 151 2.75
+node 152 2.97
+node 153 2.97
+node 154 2.97
+node 155 2.97
+node 156 2.98
+node 157 2.98
+node 158 2.99
+node 159 3.01
+node 160 3.03
+node 161 3.05
+node 162 3.10
+node 163 3.11
+node 164 3.12
+node 165 3.25
+node 166 3.25
+node 167 3.25
+node 168 3.25
+node 169 3.25
+node 170 3.26
+node 171 3.26
+node 172 3.36
+node 173 3.37
+node 174 3.37
+node 175 3.38
+node 176 3.38
+node 177 3.39
+node 178 3.39
+node 179 3.39
+node 180 3.39
+node 181 3.39
+node 182 3.39
+node 183 3.39
+node 184 3.39
+node 185 3.39
+node 186 3.39
+node 187 3.39
+node 188 3.39
+node 189 3.39
+node 190 3.39
+node 191 3.39
+node 192 3.39
+node 193 3.39
+node 194 3.40
+node 195 3.40
+node 196 3.40
+node 197 3.40
+node 198 3.40
+node 199 3.40
+node 200 3.40
+node 201 3.40
+node 202 3.40
+node 203 3.40
+node 204 3.40
+node 205 3.40
+node 206 3.40
+node 207 3.41
+node 208 3.41
+node 209 3.44
+node 210 3.45
+node 211 3.50
+node 212 3.53
+node 213 3.55
+node 214 3.56
+node 215 3.56
+node 216 3.57
+node 217 3.57
+node 218 3.58
+node 219 3.59
+node 220 3.61
+node 221 3.62
+node 222 3.75
+node 223 3.60
+node 224 3.60
+node 225 3.62
+node 226 3.69
+node 227 3.69
+node 228 3.70
+node 229 3.71
+node 230 3.63
+node 231 3.76
+node 232 3.68
+node 233 4.31
+node 234 4.57
+edge 0 1 -silence- 0 75
+edge 0 2 -silence- 0 75
+edge 0 3 -silence- 0 79
+edge 0 4 -silence- 0 81
+edge 0 5 -silence- 0 40
+edge 0 6 -silence- 0 77
+edge 0 7 -silence- 0 43
+edge 0 8 -silence- 0 60
+edge 0 9 -silence- 0 81
+edge 0 10 -silence- 0 43
+edge 0 11 -silence- 0 57
+edge 0 12 -silence- 0 52
+edge 0 13 -silence- 0 64
+edge 0 14 -silence- 0 72
+edge 0 15 -silence- 0 81
+edge 0 16 -silence- 0 56
+edge 0 17 -silence- 0 67
+edge 1 30 -silence- 663 0
+edge 2 21 -silence- 371 0
+edge 3 18 -silence- 260 9
+edge 4 33 -silence- 1055 0
+edge 5 23 -silence- 371 0
+edge 6 32 -silence- 663 0
+edge 7 24 -silence- 371 0
+edge 8 34 -silence- 3189 0
+edge 9 27 -silence- 518 0
+edge 10 20 -silence- 260 0
+edge 11 25 -silence- 371 8
+edge 12 26 -silence- 371 11
+edge 13 29 -silence- 518 0
+edge 14 28 -silence- 518 0
+edge 15 19 -silence- 260 0
+edge 16 22 -silence- 371 0
+edge 17 31 -silence- 663 0
+edge 18 43 it_would 3634 34
+edge 19 40 put 3058 35
+edge 19 41 put 3058 94
+edge 19 42 put 3950 53
+edge 19 43 put 3058 66
+edge 20 38 but 3204 47
+edge 20 39 but 3204 68
+edge 21 43 could 3528 34
+edge 22 36 for 2627 63
+edge 23 35 i 632 26
+edge 24 37 well 3104 59
+edge 25 43 which 3501 62
+edge 26 38 what 2994 71
+edge 27 44 we_just 6984 50
+edge 28 43 will 3372 46
+edge 29 43 with 3364 55
+edge 30 43 would 3030 38
+edge 31 36 we're 2502 38
+edge 32 36 were 2502 38
+edge 33 44 and_just 6447 52
+edge 34 46 just 4152 54
+edge 35 43 would 2860 38
+edge 36 46 just 3867 54
+edge 37 46 just 3602 54
+edge 38 46 just 3339 54
+edge 39 45 just_to 3993 41
+edge 40 44 this 3656 93
+edge 41 45 just_to 3749 41
+edge 42 46 us 2449 79
+edge 43 46 just 3095 54
+edge 44 47 keep 3139 56
+edge 44 48 keep 3313 134
+edge 44 49 keep 3313 98
+edge 44 50 keep 3313 100
+edge 44 51 keep 3313 78
+edge 44 52 keep 3313 52
+edge 44 53 keep 3528 116
+edge 44 54 keep 3528 88
+edge 44 55 keep 3528 51
+edge 44 56 keep 3528 64
+edge 44 57 keep 3528 115
+edge 44 58 keep 3528 124
+edge 44 59 keep 3528 72
+edge 44 60 keep 3528 71
+edge 44 61 keep 3528 73
+edge 44 62 keep 4016 71
+edge 44 63 keep 4016 135
+edge 45 47 keep 2910 56
+edge 45 48 keep 3084 134
+edge 45 49 keep 3084 98
+edge 45 50 keep 3084 100
+edge 45 51 keep 3084 78
+edge 45 52 keep 3084 52
+edge 45 53 keep 3299 116
+edge 45 54 keep 3299 88
+edge 45 55 keep 3299 51
+edge 45 56 keep 3299 64
+edge 45 57 keep 3299 115
+edge 45 58 keep 3299 124
+edge 45 59 keep 3299 72
+edge 45 60 keep 3299 71
+edge 45 61 keep 3299 73
+edge 45 62 keep 3787 71
+edge 45 63 keep 3787 135
+edge 46 47 keep 3359 56
+edge 46 48 keep 3533 134
+edge 46 49 keep 3533 98
+edge 46 50 keep 3533 100
+edge 46 51 keep 3533 78
+edge 46 52 keep 3533 52
+edge 46 53 keep 3748 116
+edge 46 54 keep 3748 88
+edge 46 55 keep 3748 51
+edge 46 56 keep 3748 64
+edge 46 57 keep 3748 115
+edge 46 58 keep 3748 124
+edge 46 59 keep 3748 72
+edge 46 60 keep 3748 71
+edge 46 61 keep 3748 73
+edge 46 62 keep 4236 71
+edge 46 63 keep 4236 135
+edge 47 64 telling 5046 144
+edge 47 65 telling 5046 125
+edge 47 66 telling 5046 125
+edge 47 67 telling 5046 125
+edge 47 68 telling 5046 150
+edge 48 65 batting 4582 115
+edge 49 65 pounding 4736 115
+edge 50 65 counting 4788 118
+edge 51 64 cutting 4665 139
+edge 51 65 cutting 4665 120
+edge 51 66 cutting 4665 120
+edge 51 67 cutting 4665 120
+edge 51 68 cutting 4665 145
+edge 52 65 coming 5036 128
+edge 53 65 sounding 4498 116
+edge 54 65 letting 4628 120
+edge 55 64 getting 4627 143
+edge 55 65 getting 4627 124
+edge 55 66 getting 4627 124
+edge 55 67 getting 4627 124
+edge 55 68 getting 4627 149
+edge 56 64 running 4550 141
+edge 56 65 running 4550 122
+edge 56 66 running 4550 122
+edge 56 67 running 4550 122
+edge 56 68 running 4550 147
+edge 57 65 routing 4455 118
+edge 58 65 nodding 4358 116
+edge 59 65 finding 4796 122
+edge 60 64 writing 4630 139
+edge 60 65 writing 4630 120
+edge 60 66 writing 4630 120
+edge 60 68 writing 4630 145
+edge 61 65 fighting 4805 118
+edge 62 64 adding 3862 139
+edge 62 65 adding 3862 120
+edge 62 66 adding 3862 120
+edge 62 67 adding 3862 120
+edge 62 68 adding 3862 145
+edge 63 64 outing 3743 133
+edge 63 65 outing 3743 114
+edge 64 73 river's 7439 66
+edge 64 74 river's 7439 59
+edge 64 76 river's 7439 56
+edge 64 79 river's 7439 80
+edge 64 82 river's 7439 57
+edge 65 69 rivers 7439 58
+edge 65 70 rivers 7439 39
+edge 65 71 rivers 7439 62
+edge 65 72 rivers 7439 51
+edge 65 73 rivers 7439 68
+edge 65 74 rivers 7439 61
+edge 65 75 rivers 7439 58
+edge 65 76 rivers 7439 58
+edge 65 77 rivers 7439 29
+edge 65 78 rivers 7439 51
+edge 65 79 rivers 7439 82
+edge 65 80 rivers 7439 56
+edge 65 81 rivers 7439 46
+edge 65 82 rivers 7439 59
+edge 65 83 rivers 7439 47
+edge 66 84 reversed 7848 62
+edge 66 85 reversed 7848 59
+edge 66 86 reversed 7848 60
+edge 67 85 reverse 7891 61
+edge 67 86 reverse 7891 45
+edge 68 74 rivers' 7439 59
+edge 68 76 rivers' 7439 56
+edge 68 82 rivers' 7439 57
+edge 69 99 -silence- 1798 0
+edge 70 100 -silence- 1798 0
+edge 71 93 -silence- 1798 0
+edge 72 89 -silence- 1798 0
+edge 73 97 -silence- 1798 0
+edge 74 94 -silence- 1798 0
+edge 75 96 -silence- 1798 0
+edge 76 88 -silence- 1798 0
+edge 77 91 -silence- 1798 0
+edge 78 90 -silence- 1798 0
+edge 79 87 -silence- 1798 0
+edge 80 92 -silence- 1798 0
+edge 81 95 -silence- 1798 0
+edge 82 98 -silence- 1798 0
+edge 83 101 -silence- 1798 0
+edge 84 94 -silence- 1564 0
+edge 85 88 -silence- 1564 0
+edge 86 98 -silence- 1564 0
+edge 87 112 -silence- 3203 0
+edge 88 108 -silence- 3036 0
+edge 89 110 -silence- 3036 0
+edge 90 103 -silence- 2575 0
+edge 91 115 -silence- 3398 0
+edge 92 106 -silence- 2575 0
+edge 93 114 -silence- 3203 0
+edge 94 116 -silence- 3610 0
+edge 95 104 -silence- 2575 0
+edge 96 113 -silence- 3203 0
+edge 97 105 -silence- 2575 0
+edge 98 102 -silence- 2276 0
+edge 99 107 -silence- 3036 0
+edge 100 109 -silence- 3036 0
+edge 101 111 -silence- 3203 0
+edge 102 126 so 4696 43
+edge 102 127 so 4696 63
+edge 103 120 -silence- 1711 0
+edge 104 119 -silence- 1711 0
+edge 105 117 -silence- 1488 0
+edge 106 118 -silence- 1488 0
+edge 107 121 it 1303 46
+edge 108 130 [laugh] 5486 49
+edge 108 134 [laugh] 12044 93
+edge 108 135 [laugh] 12044 117
+edge 108 136 [laugh] 12044 63
+edge 108 137 [laugh] 12044 54
+edge 108 138 [laugh] 12044 58
+edge 108 139 [laugh] 12044 83
+edge 108 140 [laugh] 12044 66
+edge 108 141 [laugh] 12044 54
+edge 108 142 [laugh] 12044 101
+edge 109 121 of 1284 61
+edge 110 121 to 1237 56
+edge 111 122 is 1255 61
+edge 112 123 huh 2444 42
+edge 113 129 a 3612 66
+edge 114 123 @reject@ 2633 44
+edge 114 128 @reject@ 9748 89
+edge 115 124 and 3258 50
+edge 116 124 i 2804 57
+edge 116 125 i 3040 25
+edge 116 131 i 8394 66
+edge 117 132 okay 10860 82
+edge 118 129 uh 2812 51
+edge 119 129 are 2661 58
+edge 120 129 or 2661 55
+edge 121 130 [laugh] 4294 49
+edge 121 134 [laugh] 10838 93
+edge 121 135 [laugh] 10838 117
+edge 121 136 [laugh] 10838 63
+edge 121 137 [laugh] 10838 54
+edge 121 138 [laugh] 10838 58
+edge 121 139 [laugh] 10838 83
+edge 121 140 [laugh] 10838 66
+edge 121 141 [laugh] 10838 54
+edge 121 142 [laugh] 10838 101
+edge 122 130 [laugh] 4073 49
+edge 122 134 [laugh] 10617 93
+edge 122 135 [laugh] 10617 117
+edge 122 136 [laugh] 10617 63
+edge 122 137 [laugh] 10617 54
+edge 122 138 [laugh] 10617 58
+edge 122 139 [laugh] 10617 83
+edge 122 140 [laugh] 10617 66
+edge 122 141 [laugh] 10617 54
+edge 122 142 [laugh] 10617 101
+edge 123 133 [laugh] 5088 49
+edge 123 134 [laugh] 9259 93
+edge 123 135 [laugh] 9259 117
+edge 123 136 [laugh] 9259 63
+edge 123 137 [laugh] 9259 54
+edge 123 138 [laugh] 9259 58
+edge 123 139 [laugh] 9259 83
+edge 123 140 [laugh] 9259 66
+edge 123 141 [laugh] 9259 54
+edge 123 142 [laugh] 9259 101
+edge 124 133 [laugh] 4500 49
+edge 124 134 [laugh] 8671 93
+edge 124 135 [laugh] 8671 117
+edge 124 136 [laugh] 8671 63
+edge 124 137 [laugh] 8671 54
+edge 124 138 [laugh] 8671 58
+edge 124 139 [laugh] 8671 83
+edge 124 140 [laugh] 8671 66
+edge 124 141 [laugh] 8671 54
+edge 124 142 [laugh] 8671 101
+edge 125 131 i 5380 66
+edge 126 133 [laugh] 3808 49
+edge 126 134 [laugh] 7971 93
+edge 126 135 [laugh] 7971 117
+edge 126 136 [laugh] 7971 63
+edge 126 137 [laugh] 7971 54
+edge 126 138 [laugh] 7971 58
+edge 126 139 [laugh] 7971 83
+edge 126 140 [laugh] 7971 66
+edge 126 141 [laugh] 7971 54
+edge 126 142 [laugh] 7971 101
+edge 127 132 okay 7681 82
+edge 128 143 -silence- 4771 0
+edge 129 133 [laugh] 4043 49
+edge 129 134 [laugh] 8212 93
+edge 129 135 [laugh] 8212 117
+edge 129 136 [laugh] 8212 63
+edge 129 137 [laugh] 8212 54
+edge 129 138 [laugh] 8212 58
+edge 129 139 [laugh] 8212 83
+edge 129 140 [laugh] 8212 66
+edge 129 141 [laugh] 8212 54
+edge 129 142 [laugh] 8212 101
+edge 130 133 [laugh] 2497 49
+edge 130 134 [laugh] 6638 93
+edge 130 135 [laugh] 6638 117
+edge 130 136 [laugh] 6638 63
+edge 130 137 [laugh] 6638 54
+edge 130 138 [laugh] 6638 58
+edge 130 139 [laugh] 6638 83
+edge 130 140 [laugh] 6638 66
+edge 130 141 [laugh] 6638 54
+edge 130 142 [laugh] 6638 101
+edge 131 143 -silence- 5770 0
+edge 132 143 -silence- 2742 0
+edge 133 134 [laugh] 4270 93
+edge 133 135 [laugh] 4270 117
+edge 133 136 [laugh] 4270 63
+edge 133 137 [laugh] 4270 54
+edge 133 138 [laugh] 4270 58
+edge 133 139 [laugh] 4270 83
+edge 133 140 [laugh] 4270 66
+edge 133 141 [laugh] 4270 54
+edge 133 142 [laugh] 4270 101
+edge 134 150 -silence- 2333 0
+edge 135 144 -silence- 2333 0
+edge 136 149 -silence- 2333 0
+edge 137 148 -silence- 2333 0
+edge 138 147 -silence- 2333 0
+edge 139 143 -silence- 2333 0
+edge 140 146 -silence- 2333 0
+edge 141 145 -silence- 2333 0
+edge 142 151 -silence- 2333 0
+edge 143 153 -silence- 2881 0
+edge 144 156 -silence- 3114 0
+edge 145 155 -silence- 2881 0
+edge 146 160 -silence- 4305 0
+edge 147 158 -silence- 3370 0
+edge 148 154 -silence- 2881 0
+edge 149 152 -silence- 2881 0
+edge 150 159 -silence- 3817 0
+edge 151 157 -silence- 3114 3
+edge 152 163 i'm 2810 44
+edge 153 165 i_like 5436 83
+edge 153 166 i_like 5436 83
+edge 153 167 i_like 5436 47
+edge 153 168 i_like 5436 84
+edge 153 169 i_like 5436 108
+edge 153 170 i_like 5706 73
+edge 153 171 i_like 5706 51
+edge 154 161 i 1798 82
+edge 155 162 oh 2558 66
+edge 156 165 alike 5211 76
+edge 156 167 alike 5211 68
+edge 157 165 of_like 5211 78
+edge 157 166 of_like 5211 43
+edge 157 167 of_like 5211 60
+edge 158 164 well 2549 56
+edge 159 167 and_like 4761 55
+edge 160 166 like 4523 57
+edge 160 167 like 4523 51
+edge 161 165 i_like 3666 83
+edge 161 166 i_like 3666 83
+edge 161 167 i_like 3666 47
+edge 161 168 i_like 3666 84
+edge 161 169 i_like 3666 108
+edge 161 170 i_like 3936 73
+edge 161 171 i_like 3936 51
+edge 162 166 like 2838 57
+edge 162 167 like 2838 51
+edge 163 166 like 2673 57
+edge 163 167 like 2673 51
+edge 164 166 like 2563 57
+edge 164 167 like 2563 51
+edge 165 201 might 3251 79
+edge 166 209 five 4135 34
+edge 166 210 five 4257 108
+edge 166 215 five 6345 69
+edge 166 220 five 7487 125
+edge 167 172 my 2298 93
+edge 167 173 my 2470 75
+edge 167 174 my 2470 94
+edge 167 175 my 2641 112
+edge 167 176 my 2641 101
+edge 167 177 my 2831 142
+edge 167 178 my 2831 85
+edge 167 179 my 2831 113
+edge 167 180 my 2831 140
+edge 167 181 my 2831 93
+edge 167 182 my 2831 64
+edge 167 183 my 2831 121
+edge 167 184 my 2831 112
+edge 167 185 my 2831 139
+edge 167 186 my 2831 115
+edge 167 187 my 2831 115
+edge 167 188 my 2831 111
+edge 167 189 my 2831 89
+edge 167 190 my 2831 108
+edge 167 191 my 2831 140
+edge 167 192 my 2831 126
+edge 167 193 my 2831 110
+edge 167 194 my 3062 98
+edge 167 195 my 3062 70
+edge 167 196 my 3062 83
+edge 167 197 my 3062 83
+edge 167 198 my 3062 68
+edge 167 199 my 3062 75
+edge 167 200 my 3062 70
+edge 167 202 my 3062 83
+edge 167 203 my 3062 95
+edge 167 204 my 3062 98
+edge 167 205 my 3062 109
+edge 167 206 my 3062 107
+edge 167 208 my 3304 61
+edge 168 180 why 2997 143
+edge 168 190 why 2997 111
+edge 168 199 why 3240 43
+edge 169 215 wire 6200 54
+edge 170 190 by 2849 108
+edge 171 207 i 3573 85
+edge 172 215 ever 3409 71
+edge 172 232 ever 6137 119
+edge 173 227 real 6400 119
+edge 174 229 rear 6519 116
+edge 175 232 river 5617 117
+edge 176 227 re 5947 116
+edge 177 227 revere 5457 112
+edge 178 222 red 6701 118
+edge 179 228 rare 5747 117
+edge 180 229 rivera 5400 112
+edge 181 222 read 6701 124
+edge 182 214 room 3114 66
+edge 182 215 room 3114 44
+edge 182 229 room 6318 121
+edge 183 222 regret 6704 116
+edge 184 228 refers 5671 120
+edge 185 228 revert 5381 114
+edge 186 228 referred 5542 124
+edge 187 227 repair 5528 115
+edge 188 229 referral 5966 113
+edge 189 231 return 6963 118
+edge 190 232 refer 5113 122
+edge 191 231 reverted 6718 113
+edge 192 228 reverse 5557 116
+edge 193 231 referring 6817 124
+edge 194 227 of_our 5561 117
+edge 195 229 very 5911 127
+edge 196 232 server 5349 118
+edge 197 211 were 1489 46
+edge 197 215 were 2603 74
+edge 197 232 were 5419 124
+edge 198 212 or 2057 69
+edge 198 213 or 2454 58
+edge 198 214 or 2663 88
+edge 198 215 or 2663 63
+edge 198 216 or 2873 50
+edge 198 217 or 2873 34
+edge 198 220 or 3889 123
+edge 199 212 are 2057 39
+edge 199 215 are 2663 63
+edge 199 216 are 2873 38
+edge 199 220 are 3889 125
+edge 200 215 of 2760 77
+edge 200 219 of 3323 63
+edge 200 221 of 4050 123
+edge 201 232 refer 4893 122
+edge 202 211 we're 1489 49
+edge 202 215 we're 2603 78
+edge 202 218 we're 3033 32
+edge 202 232 we're 5419 126
+edge 203 227 for_for 5151 133
+edge 204 227 work_for 5427 124
+edge 205 233 analogy 16308 24
+edge 206 227 of_her 5220 115
+edge 207 232 refer 4689 122
+edge 208 232 @reject@ 5399 116
+edge 209 212 or 1228 69
+edge 209 213 or 1625 58
+edge 209 214 or 1834 88
+edge 209 215 or 1834 63
+edge 209 216 or 2044 50
+edge 209 217 or 2044 34
+edge 209 220 or 3060 123
+edge 210 227 of_her 4267 115
+edge 211 229 very 3973 127
+edge 212 229 very 3496 127
+edge 213 227 her 2798 119
+edge 214 228 for_a 2613 121
+edge 215 226 for 2326 45
+edge 215 227 for 2326 125
+edge 216 223 are 798 38
+edge 216 232 are 2296 125
+edge 217 223 or 798 50
+edge 217 224 or 798 34
+edge 217 232 or 2296 123
+edge 218 232 we're 2194 126
+edge 219 225 or 813 34
+edge 219 232 or 1832 123
+edge 220 233 analogy 11799 24
+edge 221 233 analogy 11545 24
+edge 222 233 analogy 8902 24
+edge 223 232 are 1604 125
+edge 224 230 or 802 34
+edge 224 232 or 1604 123
+edge 225 232 or 1176 123
+edge 226 231 an 1540 81
+edge 227 233 analogy 9996 24
+edge 228 233 analogy 9843 24
+edge 229 233 analogy 9721 24
+edge 230 232 or 962 123
+edge 231 233 analogy 8707 24
+edge 232 233 analogy 10172 24
+edge 233 234 -silence- 3445 0

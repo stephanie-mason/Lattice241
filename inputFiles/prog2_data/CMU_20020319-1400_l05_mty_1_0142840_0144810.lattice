@@ -1,0 +1,55 @@
+id CMU_20020319-1400_l05_mty_1_0142840_0144810
+start 0
+end 19
+numNodes 20
+numEdges 30
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.08
+node 4 0.08
+node 5 0.42
+node 6 0.51
+node 7 0.51
+node 8 0.52
+node 9 0.54
+node 10 0.54
+node 11 0.55
+node 12 0.68
+node 13 0.68
+node 14 1.13
+node 15 1.16
+node 16 1.76
+node 17 1.90
+node 18 1.91
+node 19 1.95
+edge 0 1 -silence- 0 57
+edge 0 2 -silence- 0 66
+edge 1 3 -silence- 357 8
+edge 2 4 -silence- 357 9
+edge 3 5 which 5651 100
+edge 4 6 which_is 6833 54
+edge 4 7 which_is 6833 92
+edge 4 8 which_is 7013 84
+edge 4 9 which_is 7402 99
+edge 4 10 which_is 7402 92
+edge 4 11 which_is 7705 71
+edge 5 12 as_they 4314 77
+edge 6 13 very 3390 63
+edge 7 12 say 2807 89
+edge 7 13 say 2807 86
+edge 8 12 they 2652 63
+edge 8 13 they 2652 94
+edge 9 12 may 2659 55
+edge 10 12 a. 2299 88
+edge 10 13 a. 2299 90
+edge 11 15 defined 10246 133
+edge 12 15 find 7198 140
+edge 13 14 fine 6659 140
+edge 14 16 delicacy 12870 57
+edge 14 17 delicacy 15032 24
+edge 15 16 delicacy 12321 57
+edge 15 17 delicacy 14483 24
+edge 16 18 [laugh] 2449 6
+edge 17 19 -silence- 363 0
+edge 18 19 -silence- 231 0

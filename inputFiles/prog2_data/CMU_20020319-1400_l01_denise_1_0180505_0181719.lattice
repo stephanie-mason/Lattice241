@@ -1,0 +1,321 @@
+id CMU_20020319-1400_l01_denise_1_0180505_0181719
+start 0
+end 124
+numNodes 125
+numEdges 191
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.00
+node 6 0.00
+node 7 0.00
+node 8 0.00
+node 9 0.00
+node 10 0.00
+node 11 0.00
+node 12 0.00
+node 13 0.00
+node 14 0.00
+node 15 0.00
+node 16 0.00
+node 17 0.00
+node 18 0.00
+node 19 0.00
+node 20 0.00
+node 21 0.00
+node 22 0.00
+node 23 0.00
+node 24 0.00
+node 25 0.00
+node 26 0.00
+node 27 0.00
+node 28 0.00
+node 29 0.00
+node 30 0.00
+node 31 0.00
+node 32 0.00
+node 33 0.00
+node 34 0.00
+node 35 0.00
+node 36 0.00
+node 37 0.00
+node 38 0.00
+node 39 0.00
+node 40 0.00
+node 41 0.00
+node 42 0.12
+node 43 0.12
+node 44 0.12
+node 45 0.12
+node 46 0.13
+node 47 0.13
+node 48 0.13
+node 49 0.13
+node 50 0.13
+node 51 0.13
+node 52 0.13
+node 53 0.13
+node 54 0.13
+node 55 0.13
+node 56 0.13
+node 57 0.14
+node 58 0.14
+node 59 0.14
+node 60 0.15
+node 61 0.15
+node 62 0.15
+node 63 0.15
+node 64 0.15
+node 65 0.15
+node 66 0.15
+node 67 0.15
+node 68 0.15
+node 69 0.16
+node 70 0.16
+node 71 0.17
+node 72 0.17
+node 73 0.17
+node 74 0.18
+node 75 0.18
+node 76 0.19
+node 77 0.19
+node 78 0.19
+node 79 0.19
+node 80 0.19
+node 81 0.19
+node 82 0.18
+node 83 0.19
+node 84 0.20
+node 85 0.22
+node 86 0.22
+node 87 0.23
+node 88 0.24
+node 89 0.24
+node 90 0.24
+node 91 0.24
+node 92 0.25
+node 93 0.25
+node 94 0.25
+node 95 0.25
+node 96 0.27
+node 97 0.28
+node 98 0.28
+node 99 0.30
+node 100 0.29
+node 101 0.41
+node 102 0.44
+node 103 0.47
+node 104 0.69
+node 105 0.69
+node 106 0.94
+node 107 0.94
+node 108 0.94
+node 109 0.94
+node 110 0.94
+node 111 0.94
+node 112 0.94
+node 113 0.94
+node 114 0.94
+node 115 0.94
+node 116 0.94
+node 117 0.94
+node 118 0.97
+node 119 0.98
+node 120 1.06
+node 121 1.07
+node 122 1.08
+node 123 1.16
+node 124 1.19
+edge 0 1 -silence- 0 56
+edge 0 2 -silence- 0 35
+edge 0 3 -silence- 0 64
+edge 0 4 -silence- 0 50
+edge 0 5 -silence- 0 53
+edge 0 6 -silence- 0 64
+edge 0 7 -silence- 0 79
+edge 0 8 -silence- 0 57
+edge 0 9 -silence- 0 65
+edge 0 10 -silence- 0 84
+edge 0 11 -silence- 0 81
+edge 0 12 -silence- 0 59
+edge 0 13 -silence- 0 38
+edge 0 14 -silence- 0 75
+edge 0 15 -silence- 0 51
+edge 0 16 -silence- 0 41
+edge 0 17 -silence- 0 77
+edge 0 18 -silence- 0 49
+edge 0 19 -silence- 0 69
+edge 0 20 -silence- 0 69
+edge 0 21 -silence- 0 64
+edge 0 22 -silence- 0 72
+edge 0 23 -silence- 0 79
+edge 0 24 -silence- 0 81
+edge 0 25 -silence- 0 76
+edge 0 26 -silence- 0 38
+edge 0 27 -silence- 0 76
+edge 0 28 -silence- 0 66
+edge 0 29 -silence- 0 38
+edge 0 30 -silence- 0 56
+edge 0 31 -silence- 0 50
+edge 0 32 -silence- 0 44
+edge 0 33 -silence- 0 93
+edge 0 34 -silence- 0 53
+edge 0 35 -silence- 0 30
+edge 0 36 -silence- 0 55
+edge 0 37 -silence- 0 61
+edge 0 38 -silence- 0 46
+edge 0 39 -silence- 0 43
+edge 0 40 -silence- 0 54
+edge 0 41 -silence- 0 40
+edge 1 46 -silence- 2231 0
+edge 2 71 -silence- 3209 0
+edge 3 44 -silence- 2032 0
+edge 4 68 -silence- 2704 0
+edge 5 66 -silence- 2704 0
+edge 6 43 -silence- 2032 0
+edge 7 45 -silence- 2032 0
+edge 8 77 -silence- 3623 0
+edge 9 54 -silence- 2231 1
+edge 10 83 -silence- 3623 0
+edge 11 81 -silence- 3623 0
+edge 12 80 -silence- 3623 0
+edge 13 79 -silence- 3623 0
+edge 14 55 -silence- 2231 7
+edge 15 56 -silence- 2231 0
+edge 16 58 -silence- 2465 0
+edge 17 57 -silence- 2465 0
+edge 18 70 -silence- 2963 0
+edge 19 50 -silence- 2231 4
+edge 20 49 -silence- 2231 2
+edge 21 61 -silence- 2704 0
+edge 22 59 -silence- 2465 0
+edge 23 47 -silence- 2231 0
+edge 24 51 -silence- 2231 0
+edge 25 65 -silence- 2704 0
+edge 26 63 -silence- 2704 0
+edge 27 52 -silence- 2231 0
+edge 28 73 -silence- 3209 0
+edge 29 76 -silence- 3623 0
+edge 30 75 -silence- 3436 0
+edge 31 67 -silence- 2704 1
+edge 32 53 -silence- 2231 0
+edge 33 78 -silence- 3623 0
+edge 34 62 -silence- 2704 0
+edge 35 74 -silence- 3436 0
+edge 36 72 -silence- 3209 8
+edge 37 64 -silence- 2704 0
+edge 38 48 -silence- 2231 0
+edge 39 42 -silence- 2032 2
+edge 40 69 -silence- 2963 0
+edge 41 60 -silence- 2704 0
+edge 42 85 but 2211 83
+edge 42 86 but 2211 62
+edge 43 94 with 2991 71
+edge 44 98 but_the 3678 82
+edge 45 98 with_a 3674 68
+edge 46 92 is 2529 26
+edge 46 93 is 2529 77
+edge 46 94 is 2529 62
+edge 46 95 is 2529 43
+edge 47 98 is_the 3365 82
+edge 48 88 it's 2388 23
+edge 48 89 it's 2388 50
+edge 48 90 it's 2388 60
+edge 48 91 it's 2388 33
+edge 49 99 is_that 3887 75
+edge 50 100 is_it 3607 55
+edge 51 98 as_the 3365 79
+edge 52 96 as_a 3097 72
+edge 53 93 @reject@ 2677 81
+edge 53 98 @reject@ 3429 79
+edge 54 98 so_the 3469 81
+edge 55 94 has 2674 64
+edge 56 89 this 2508 73
+edge 57 89 its 2167 68
+edge 58 87 and 2017 87
+edge 59 85 i'd 1835 59
+edge 60 85 i 1600 95
+edge 61 87 of 1659 86
+edge 62 98 they 2944 84
+edge 63 82 oh 865 82
+edge 64 94 as 2174 67
+edge 65 98 of_the 2860 85
+edge 66 85 in 1518 73
+edge 67 87 if 1652 92
+edge 68 85 it 1454 76
+edge 69 83 or 733 74
+edge 70 84 a 888 77
+edge 71 97 the 2352 96
+edge 71 98 the 2352 92
+edge 72 99 that 2862 81
+edge 73 98 do 2487 73
+edge 74 89 [laugh] 1420 82
+edge 75 89 for 1445 63
+edge 76 97 so 2108 73
+edge 76 98 so 2108 89
+edge 77 98 to 2030 89
+edge 78 99 feel 2584 50
+edge 79 85 uh 696 73
+edge 80 101 like 4833 24
+edge 80 102 like 5470 120
+edge 81 103 like_i 5986 120
+edge 82 103 like_a 6178 91
+edge 83 103 like_a 5986 91
+edge 84 103 like_a 5764 91
+edge 85 103 like_a 5386 91
+edge 86 103 like_i 5386 120
+edge 87 103 like_a 5164 91
+edge 88 100 a 1329 77
+edge 89 103 like_a 4911 91
+edge 90 103 like_i 4911 120
+edge 91 101 like 3758 24
+edge 91 102 like 4395 120
+edge 92 100 a 1082 77
+edge 93 103 like_i 4658 120
+edge 94 103 like_a 4658 91
+edge 95 101 like 3505 24
+edge 95 102 like 4142 120
+edge 96 103 like_a 4141 91
+edge 97 103 like_i 3897 120
+edge 98 103 like_a 3897 91
+edge 99 103 like_a 3420 91
+edge 100 103 like_a 3638 91
+edge 101 103 the 1480 99
+edge 102 104 pipe 5324 53
+edge 102 105 pipe 5324 35
+edge 103 104 pipe 4493 53
+edge 103 105 pipe 4493 35
+edge 104 118 dreams 5539 19
+edge 105 106 dream 4725 57
+edge 105 107 dream 4725 66
+edge 105 108 dream 4725 62
+edge 105 109 dream 4725 65
+edge 105 110 dream 4725 64
+edge 105 111 dream 4725 61
+edge 105 112 dream 4725 69
+edge 105 113 dream 4725 73
+edge 105 114 dream 4725 115
+edge 105 115 dream 4725 80
+edge 105 116 dream 4725 75
+edge 105 117 dream 4725 63
+edge 105 119 dream 5652 23
+edge 106 121 but 3302 15
+edge 107 123 was 5315 26
+edge 108 122 with 3303 39
+edge 109 121 @reject@ 3186 11
+edge 110 122 will 3285 32
+edge 111 124 which 6036 31
+edge 112 122 what 3216 26
+edge 113 121 well 3054 18
+edge 114 124 whoops 5737 8
+edge 115 124 once 5901 24
+edge 116 120 were 2845 31
+edge 117 122 one 3268 20
+edge 118 124 -silence- 5456 0
+edge 119 124 -silence- 5178 0
+edge 120 124 -silence- 3090 0
+edge 121 124 -silence- 2854 0
+edge 122 124 -silence- 2631 0
+edge 123 124 -silence- 656 0

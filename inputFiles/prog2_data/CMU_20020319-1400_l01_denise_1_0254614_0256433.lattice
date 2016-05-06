@@ -1,0 +1,307 @@
+id CMU_20020319-1400_l01_denise_1_0254614_0256433
+start 0
+end 105
+numNodes 106
+numEdges 196
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.12
+node 4 0.12
+node 5 0.39
+node 6 0.39
+node 7 0.62
+node 8 0.62
+node 9 0.62
+node 10 0.62
+node 11 0.62
+node 12 0.62
+node 13 1.10
+node 14 1.10
+node 15 1.10
+node 16 1.10
+node 17 1.10
+node 18 1.10
+node 19 1.30
+node 20 1.30
+node 21 1.30
+node 22 1.30
+node 23 1.30
+node 24 1.30
+node 25 1.30
+node 26 1.30
+node 27 1.31
+node 28 1.31
+node 29 1.31
+node 30 1.31
+node 31 1.31
+node 32 1.31
+node 33 1.31
+node 34 1.31
+node 35 1.31
+node 36 1.31
+node 37 1.31
+node 38 1.31
+node 39 1.32
+node 40 1.32
+node 41 1.32
+node 42 1.32
+node 43 1.32
+node 44 1.32
+node 45 1.32
+node 46 1.32
+node 47 1.32
+node 48 1.32
+node 49 1.32
+node 50 1.32
+node 51 1.32
+node 52 1.32
+node 53 1.32
+node 54 1.32
+node 55 1.32
+node 56 1.32
+node 57 1.32
+node 58 1.32
+node 59 1.32
+node 60 1.32
+node 61 1.32
+node 62 1.32
+node 63 1.32
+node 64 1.32
+node 65 1.32
+node 66 1.32
+node 67 1.32
+node 68 1.32
+node 69 1.32
+node 70 1.32
+node 71 1.32
+node 72 1.32
+node 73 1.32
+node 74 1.32
+node 75 1.32
+node 76 1.33
+node 77 1.33
+node 78 1.33
+node 79 1.37
+node 80 1.37
+node 81 1.37
+node 82 1.37
+node 83 1.37
+node 84 1.38
+node 85 1.38
+node 86 1.41
+node 87 1.42
+node 88 1.35
+node 89 1.38
+node 90 1.42
+node 91 1.42
+node 92 1.43
+node 93 1.43
+node 94 1.43
+node 95 1.46
+node 96 1.47
+node 97 1.47
+node 98 1.48
+node 99 1.44
+node 100 1.45
+node 101 1.45
+node 102 1.49
+node 103 1.50
+node 104 1.51
+node 105 1.81
+edge 0 1 -silence- 0 38
+edge 0 2 -silence- 0 78
+edge 1 4 -silence- 1113 0
+edge 2 3 -silence- 1113 0
+edge 3 6 ok 5750 49
+edge 4 5 okay 5750 106
+edge 4 6 okay 5750 45
+edge 5 10 ya 3726 80
+edge 6 7 yeah 3765 128
+edge 6 8 yeah 3765 80
+edge 6 9 yeah 3765 84
+edge 6 10 yeah 3765 80
+edge 6 11 yeah 3765 45
+edge 6 12 yeah 3765 90
+edge 7 14 -silence- 3463 0
+edge 8 13 -silence- 3463 0
+edge 9 18 -silence- 3463 0
+edge 10 17 -silence- 3463 0
+edge 11 15 -silence- 3463 0
+edge 12 16 -silence- 3463 0
+edge 13 92 right_and 6201 41
+edge 14 99 rhino 6365 30
+edge 15 19 right 3524 86
+edge 15 20 right 3524 67
+edge 15 21 right 3524 64
+edge 15 22 right 3524 78
+edge 15 23 right 3524 88
+edge 15 24 right 3524 61
+edge 15 25 right 3524 49
+edge 15 26 right 3524 64
+edge 15 27 right 3675 64
+edge 15 28 right 3675 42
+edge 15 29 right 3675 90
+edge 15 30 right 3675 89
+edge 15 31 right 3675 47
+edge 15 32 right 3675 55
+edge 15 33 right 3675 59
+edge 15 34 right 3675 99
+edge 15 35 right 3675 46
+edge 15 36 right 3675 75
+edge 15 37 right 3675 98
+edge 15 38 right 3675 56
+edge 15 39 right 3853 76
+edge 15 40 right 3853 59
+edge 15 41 right 3853 49
+edge 15 42 right 3853 74
+edge 15 43 right 3853 57
+edge 15 44 right 3853 40
+edge 15 45 right 3853 70
+edge 15 46 right 3853 100
+edge 15 47 right 3853 53
+edge 15 48 right 3853 54
+edge 15 49 right 3853 51
+edge 15 50 right 3853 79
+edge 15 51 right 3853 49
+edge 15 52 right 3853 98
+edge 15 53 right 3853 71
+edge 15 54 right 3853 89
+edge 15 55 right 3853 69
+edge 15 56 right 3853 110
+edge 15 57 right 3853 59
+edge 15 58 right 3853 57
+edge 15 59 right 3853 50
+edge 15 60 right 3853 82
+edge 15 61 right 3853 65
+edge 15 62 right 3853 63
+edge 15 63 right 3853 58
+edge 15 64 right 3853 58
+edge 15 65 right 3853 84
+edge 15 66 right 3853 68
+edge 15 67 right 3853 38
+edge 15 68 right 3853 54
+edge 15 69 right 3853 70
+edge 15 70 right 3853 65
+edge 15 71 right 3853 66
+edge 15 72 right 3853 62
+edge 15 73 right 3853 89
+edge 15 74 right 3853 67
+edge 15 75 right 3853 64
+edge 15 76 right 4106 44
+edge 15 77 right 4106 8
+edge 15 78 right 4106 58
+edge 16 21 write 3524 27
+edge 16 30 write 3675 38
+edge 16 40 write 3853 60
+edge 16 47 write 3853 55
+edge 16 58 write 3853 34
+edge 16 62 write 3853 29
+edge 16 64 write 3853 54
+edge 16 69 write 3853 53
+edge 16 71 write 3853 22
+edge 17 87 right_now 6017 37
+edge 17 92 right_now 6219 15
+edge 18 79 right_i 4692 68
+edge 18 80 right_i 4692 64
+edge 18 81 right_i 4692 47
+edge 18 82 right_i 4692 48
+edge 18 83 right_i 4692 70
+edge 18 84 right_i 4880 72
+edge 18 85 right_i 4880 49
+edge 18 86 right_i 5584 54
+edge 18 92 right_i 6047 44
+edge 19 102 times 4075 17
+edge 20 103 down_to 4317 35
+edge 21 99 down 2807 18
+edge 22 99 though 3014 15
+edge 23 92 now 2700 16
+edge 24 99 that 3052 16
+edge 25 98 that's 3910 31
+edge 26 99 time 3012 14
+edge 27 99 no 2639 19
+edge 28 99 yeah 2908 7
+edge 29 99 know 2639 19
+edge 30 99 them 2686 15
+edge 31 98 hand 3979 18
+edge 32 103 mouse 4315 17
+edge 33 92 then 2670 20
+edge 34 98 note 3580 24
+edge 35 90 there 2571 14
+edge 36 99 not 2754 27
+edge 37 98 notes 3597 20
+edge 38 99 well 2935 18
+edge 39 92 eye 2375 21
+edge 40 89 @reject@ 1344 34
+edge 40 103 @reject@ 3935 11
+edge 41 104 after 4370 32
+edge 42 98 and 3535 19
+edge 43 103 side 4251 14
+edge 44 90 to 2290 26
+edge 45 99 arm 2637 21
+edge 46 95 him 2937 16
+edge 47 91 on 1900 43
+edge 47 93 on 2109 56
+edge 47 94 on 2109 34
+edge 47 96 on 3019 25
+edge 47 97 on 3019 23
+edge 48 98 it's 3603 31
+edge 49 103 but 4327 15
+edge 50 100 i'll 2573 38
+edge 51 92 in 2430 29
+edge 52 103 us 3903 20
+edge 53 98 around 3554 19
+edge 54 100 o. 2638 28
+edge 55 99 i'm 2453 32
+edge 56 99 ah 2429 15
+edge 57 95 off 2972 19
+edge 58 100 up 2763 20
+edge 59 103 okay 4161 7
+edge 60 99 all 2515 29
+edge 61 99 of 2499 29
+edge 62 100 it 2908 16
+edge 63 92 or 2477 21
+edge 64 88 uh 778 33
+edge 64 99 uh 2429 15
+edge 65 103 also 4014 24
+edge 66 103 answer 4144 19
+edge 67 99 so 2774 15
+edge 68 99 um 2615 10
+edge 69 98 out 3380 16
+edge 70 100 oh 2638 17
+edge 71 92 a 2252 36
+edge 72 98 uhhuh 3547 14
+edge 73 98 huh 3398 3
+edge 74 103 under 4061 33
+edge 75 103 into 4137 29
+edge 76 99 [laugh] 2741 6
+edge 77 105 -silence- 9470 0
+edge 78 102 is 3603 27
+edge 79 101 @reject@ 1787 34
+edge 79 103 @reject@ 2911 11
+edge 80 103 i_see 3082 9
+edge 81 102 was 2770 26
+edge 82 99 am 1610 30
+edge 83 99 uh 1509 15
+edge 84 100 it 1601 16
+edge 85 92 i 1236 28
+edge 86 103 see 2205 23
+edge 87 102 is 1668 27
+edge 88 99 uh 1785 15
+edge 89 101 @reject@ 1614 34
+edge 89 103 @reject@ 2738 11
+edge 90 105 -silence- 7274 0
+edge 91 100 uh 820 15
+edge 92 105 -silence- 7042 0
+edge 93 103 @reject@ 1741 11
+edge 94 102 it 1538 16
+edge 95 105 -silence- 6384 0
+edge 96 103 a 805 36
+edge 97 105 -silence- 6132 0
+edge 98 105 -silence- 5873 0
+edge 99 105 -silence- 6818 0
+edge 100 105 -silence- 6615 0
+edge 101 104 @reject@ 1533 11
+edge 102 105 -silence- 5629 0
+edge 103 105 -silence- 5366 0
+edge 104 105 -silence- 5163 0

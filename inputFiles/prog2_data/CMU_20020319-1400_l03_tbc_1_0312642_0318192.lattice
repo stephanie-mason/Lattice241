@@ -1,0 +1,1158 @@
+id CMU_20020319-1400_l03_tbc_1_0312642_0318192
+start 0
+end 285
+numNodes 286
+numEdges 867
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.00
+node 6 0.00
+node 7 0.00
+node 8 0.00
+node 9 0.00
+node 10 0.00
+node 11 0.00
+node 12 0.00
+node 13 0.00
+node 14 0.00
+node 15 0.00
+node 16 0.00
+node 17 0.00
+node 18 0.00
+node 19 0.00
+node 20 0.00
+node 21 0.00
+node 22 0.00
+node 23 0.00
+node 24 0.00
+node 25 0.00
+node 26 0.00
+node 27 0.00
+node 28 0.00
+node 29 0.00
+node 30 0.00
+node 31 0.00
+node 32 0.00
+node 33 0.00
+node 34 0.00
+node 35 0.00
+node 36 0.00
+node 37 0.00
+node 38 0.00
+node 39 0.03
+node 40 0.03
+node 41 0.03
+node 42 0.03
+node 43 0.03
+node 44 0.03
+node 45 0.03
+node 46 0.03
+node 47 0.03
+node 48 0.03
+node 49 0.03
+node 50 0.03
+node 51 0.03
+node 52 0.03
+node 53 0.03
+node 54 0.03
+node 55 0.03
+node 56 0.03
+node 57 0.03
+node 58 0.03
+node 59 0.03
+node 60 0.03
+node 61 0.03
+node 62 0.03
+node 63 0.03
+node 64 0.03
+node 65 0.03
+node 66 0.03
+node 67 0.03
+node 68 0.03
+node 69 0.03
+node 70 0.03
+node 71 0.03
+node 72 0.03
+node 73 0.05
+node 74 0.05
+node 75 0.05
+node 76 0.05
+node 77 0.06
+node 78 0.06
+node 79 0.06
+node 80 0.06
+node 81 0.06
+node 82 0.06
+node 83 0.06
+node 84 0.21
+node 85 0.23
+node 86 0.28
+node 87 0.28
+node 88 0.30
+node 89 0.19
+node 90 0.20
+node 91 0.20
+node 92 0.20
+node 93 0.20
+node 94 0.20
+node 95 0.21
+node 96 0.21
+node 97 0.21
+node 98 0.21
+node 99 0.21
+node 100 0.21
+node 101 0.21
+node 102 0.21
+node 103 0.21
+node 104 0.21
+node 105 0.21
+node 106 0.21
+node 107 0.21
+node 108 0.22
+node 109 0.22
+node 110 0.22
+node 111 0.22
+node 112 0.24
+node 113 0.24
+node 114 0.24
+node 115 0.24
+node 116 0.24
+node 117 0.24
+node 118 0.24
+node 119 0.24
+node 120 0.24
+node 121 0.25
+node 122 0.25
+node 123 0.25
+node 124 0.25
+node 125 0.25
+node 126 0.25
+node 127 0.25
+node 128 0.25
+node 129 0.26
+node 130 0.26
+node 131 0.26
+node 132 0.26
+node 133 0.26
+node 134 0.26
+node 135 0.24
+node 136 0.25
+node 137 0.25
+node 138 0.26
+node 139 0.26
+node 140 0.26
+node 141 0.26
+node 142 0.26
+node 143 0.27
+node 144 0.27
+node 145 0.27
+node 146 0.27
+node 147 0.29
+node 148 0.49
+node 149 0.45
+node 150 0.46
+node 151 0.47
+node 152 0.47
+node 153 0.47
+node 154 0.47
+node 155 0.47
+node 156 0.47
+node 157 0.47
+node 158 0.47
+node 159 0.47
+node 160 0.47
+node 161 0.47
+node 162 0.48
+node 163 0.48
+node 164 0.48
+node 165 0.48
+node 166 0.53
+node 167 0.53
+node 168 0.53
+node 169 0.53
+node 170 0.53
+node 171 0.54
+node 172 0.54
+node 173 0.51
+node 174 0.51
+node 175 0.51
+node 176 0.53
+node 177 0.54
+node 178 0.58
+node 179 0.65
+node 180 0.72
+node 181 0.74
+node 182 0.76
+node 183 0.70
+node 184 0.72
+node 185 0.72
+node 186 0.73
+node 187 0.73
+node 188 0.74
+node 189 0.74
+node 190 0.74
+node 191 0.74
+node 192 0.74
+node 193 0.74
+node 194 0.74
+node 195 0.74
+node 196 0.74
+node 197 0.74
+node 198 0.74
+node 199 0.75
+node 200 0.78
+node 201 0.79
+node 202 0.77
+node 203 0.96
+node 204 0.99
+node 205 1.00
+node 206 1.01
+node 207 1.01
+node 208 1.02
+node 209 1.03
+node 210 1.10
+node 211 1.16
+node 212 1.25
+node 213 1.20
+node 214 1.24
+node 215 1.67
+node 216 2.14
+node 217 2.14
+node 218 2.76
+node 219 2.99
+node 220 3.15
+node 221 3.80
+node 222 3.80
+node 223 3.80
+node 224 3.80
+node 225 3.80
+node 226 3.80
+node 227 3.80
+node 228 3.80
+node 229 3.80
+node 230 3.80
+node 231 3.80
+node 232 3.80
+node 233 3.80
+node 234 3.80
+node 235 3.80
+node 236 3.80
+node 237 4.50
+node 238 4.51
+node 239 4.51
+node 240 4.51
+node 241 4.51
+node 242 4.51
+node 243 4.51
+node 244 4.51
+node 245 4.51
+node 246 4.51
+node 247 4.51
+node 248 4.52
+node 249 4.52
+node 250 4.52
+node 251 4.52
+node 252 4.53
+node 253 4.73
+node 254 4.74
+node 255 4.74
+node 256 4.75
+node 257 5.06
+node 258 5.08
+node 259 5.08
+node 260 5.08
+node 261 5.11
+node 262 5.11
+node 263 5.11
+node 264 5.11
+node 265 5.11
+node 266 5.12
+node 267 5.12
+node 268 5.16
+node 269 5.16
+node 270 5.17
+node 271 5.18
+node 272 5.18
+node 273 5.18
+node 274 5.19
+node 275 5.19
+node 276 5.36
+node 277 5.11
+node 278 5.12
+node 279 5.15
+node 280 5.16
+node 281 5.25
+node 282 5.36
+node 283 5.48
+node 284 5.50
+node 285 5.53
+edge 0 1 -silence- 0 74
+edge 0 2 -silence- 0 73
+edge 0 3 -silence- 0 66
+edge 0 4 -silence- 0 54
+edge 0 5 -silence- 0 103
+edge 0 6 -silence- 0 49
+edge 0 7 -silence- 0 38
+edge 0 8 -silence- 0 38
+edge 0 9 -silence- 0 95
+edge 0 10 -silence- 0 81
+edge 0 11 -silence- 0 111
+edge 0 12 -silence- 0 74
+edge 0 13 -silence- 0 155
+edge 0 14 -silence- 0 84
+edge 0 15 -silence- 0 40
+edge 0 16 -silence- 0 71
+edge 0 17 -silence- 0 127
+edge 0 18 -silence- 0 97
+edge 0 19 -silence- 0 53
+edge 0 20 -silence- 0 129
+edge 0 21 -silence- 0 76
+edge 0 22 -silence- 0 55
+edge 0 23 -silence- 0 91
+edge 0 24 -silence- 0 119
+edge 0 25 -silence- 0 110
+edge 0 26 -silence- 0 83
+edge 0 27 -silence- 0 109
+edge 0 28 -silence- 0 107
+edge 0 29 -silence- 0 92
+edge 0 30 -silence- 0 145
+edge 0 31 -silence- 0 100
+edge 0 32 -silence- 0 111
+edge 0 33 -silence- 0 117
+edge 0 34 -silence- 0 115
+edge 0 35 -silence- 0 94
+edge 0 36 -silence- 0 79
+edge 0 37 -silence- 0 86
+edge 0 38 -silence- 0 104
+edge 1 62 -silence- 152 9
+edge 2 63 -silence- 152 12
+edge 3 66 -silence- 152 0
+edge 4 70 -silence- 152 0
+edge 5 58 -silence- 152 0
+edge 6 65 -silence- 152 0
+edge 7 44 -silence- 152 0
+edge 8 72 -silence- 152 0
+edge 9 45 -silence- 152 0
+edge 10 50 -silence- 152 0
+edge 11 53 -silence- 152 0
+edge 12 52 -silence- 152 0
+edge 13 55 -silence- 152 0
+edge 14 74 -silence- 613 0
+edge 15 71 -silence- 152 0
+edge 16 67 -silence- 152 8
+edge 17 49 -silence- 152 0
+edge 18 46 -silence- 152 0
+edge 19 76 -silence- 613 0
+edge 20 48 -silence- 152 0
+edge 21 42 -silence- 152 15
+edge 22 69 -silence- 152 9
+edge 23 41 -silence- 152 0
+edge 24 64 -silence- 152 0
+edge 25 60 -silence- 152 0
+edge 26 57 -silence- 152 0
+edge 27 47 -silence- 152 0
+edge 28 61 -silence- 152 0
+edge 29 68 -silence- 152 0
+edge 30 43 -silence- 152 0
+edge 31 51 -silence- 152 0
+edge 32 56 -silence- 152 0
+edge 33 40 -silence- 152 0
+edge 34 59 -silence- 152 0
+edge 35 39 -silence- 152 0
+edge 36 54 -silence- 152 0
+edge 37 73 -silence- 613 0
+edge 38 75 -silence- 613 0
+edge 39 129 thinking 4643 96
+edge 39 131 thinking 4643 96
+edge 39 132 thinking 4643 71
+edge 39 133 thinking 4643 79
+edge 39 134 thinking 4643 105
+edge 39 138 thinking 4643 97
+edge 39 139 thinking 4643 75
+edge 39 140 thinking 4643 86
+edge 39 141 thinking 4643 95
+edge 39 142 thinking 4643 101
+edge 39 155 thinking 9223 76
+edge 39 159 thinking 9223 21
+edge 39 164 thinking 9463 73
+edge 40 137 thinks 4816 93
+edge 41 143 things_that 5449 100
+edge 42 125 i_think_i 4625 18
+edge 42 126 i_think_i 4625 48
+edge 42 127 i_think_i 4625 45
+edge 42 137 i_think_i 4625 80
+edge 43 138 thing's 4907 89
+edge 44 77 oh 855 114
+edge 44 78 oh 855 102
+edge 44 79 oh 855 105
+edge 44 80 oh 855 106
+edge 44 81 oh 855 95
+edge 44 82 oh 855 89
+edge 45 112 think_of 4166 32
+edge 45 116 think_of 4166 96
+edge 45 118 think_of 4166 90
+edge 45 121 think_of 4406 98
+edge 45 122 think_of 4406 101
+edge 45 123 think_of 4406 100
+edge 45 125 think_of 4406 91
+edge 45 126 think_of 4406 106
+edge 45 127 think_of 4406 110
+edge 45 128 think_of 4406 101
+edge 45 136 think_of 4406 83
+edge 45 137 think_of 4406 102
+edge 45 172 think_of 11428 82
+edge 45 177 think_of 11244 44
+edge 45 178 think_of 12380 56
+edge 46 143 thing_that 5137 96
+edge 46 145 thing_that 5137 100
+edge 46 177 thing_that 11572 76
+edge 47 123 think_i 4406 105
+edge 47 124 think_i 4406 84
+edge 47 125 think_i 4406 32
+edge 47 126 think_i 4406 65
+edge 47 127 think_i 4406 71
+edge 47 128 think_i 4406 62
+edge 47 136 think_i 4406 88
+edge 47 137 think_i 4406 92
+edge 47 175 think_i 10837 87
+edge 48 164 thanking 9650 27
+edge 49 137 thingy 4646 92
+edge 50 90 think 3397 53
+edge 50 92 think 3397 72
+edge 50 93 think 3397 57
+edge 50 95 think 3475 105
+edge 50 96 think 3475 28
+edge 50 97 think 3475 37
+edge 50 99 think 3475 46
+edge 50 104 think 3475 57
+edge 50 105 think 3475 91
+edge 50 106 think 3475 40
+edge 50 107 think 3475 32
+edge 50 108 think 3721 108
+edge 50 109 think 3721 49
+edge 50 110 think 3721 64
+edge 50 111 think 3721 57
+edge 50 113 think 4293 102
+edge 50 114 think 4293 111
+edge 50 115 think 4293 76
+edge 50 117 think 4293 87
+edge 50 119 think 4293 101
+edge 50 120 think 4293 84
+edge 50 135 think 4293 86
+edge 51 86 thank 5365 94
+edge 51 87 thank 5365 39
+edge 52 138 thanks 5305 101
+edge 53 125 thing_to 4770 55
+edge 53 137 thing_to 4770 84
+edge 54 85 things 4278 68
+edge 54 108 things 3999 76
+edge 54 134 things 4907 110
+edge 54 138 things 4907 102
+edge 54 139 things 4907 80
+edge 54 140 things 4907 91
+edge 54 141 things 4907 100
+edge 54 142 things 4907 106
+edge 55 138 thinkin 4573 88
+edge 55 142 thinkin 4573 92
+edge 56 143 think_you 5266 102
+edge 57 89 thing 3186 48
+edge 57 90 thing 3305 69
+edge 57 91 thing 3305 51
+edge 57 92 thing 3305 78
+edge 57 93 thing 3305 44
+edge 57 94 thing 3305 25
+edge 57 95 thing 3461 92
+edge 57 97 thing 3461 52
+edge 57 98 thing 3461 95
+edge 57 99 thing 3461 56
+edge 57 100 thing 3461 49
+edge 57 101 thing 3461 37
+edge 57 102 thing 3461 110
+edge 57 103 thing 3461 55
+edge 57 105 thing 3461 66
+edge 57 107 thing 3461 40
+edge 57 109 thing 3752 48
+edge 57 122 thing 4539 104
+edge 57 123 thing 4539 103
+edge 57 125 thing 4539 90
+edge 57 126 thing 4539 109
+edge 57 127 thing 4539 113
+edge 57 136 thing 4539 81
+edge 57 137 thing 4539 105
+edge 58 137 things_are 5017 93
+edge 59 137 things_you 4878 88
+edge 60 130 thing_and 4618 82
+edge 60 131 thing_and 4618 92
+edge 60 133 thing_and 4618 62
+edge 60 134 thing_and 4618 101
+edge 60 138 thing_and 4618 93
+edge 60 139 thing_and 4618 74
+edge 60 140 thing_and 4618 82
+edge 60 141 thing_and 4618 91
+edge 60 142 thing_and 4618 97
+edge 61 130 think_it 4797 68
+edge 61 134 think_it 4797 106
+edge 61 139 think_it 4797 79
+edge 61 140 think_it 4797 87
+edge 61 143 think_it 4888 98
+edge 61 144 think_it 4888 96
+edge 61 145 think_it 4888 85
+edge 61 176 think_it 11195 78
+edge 62 143 i_think_the 5396 92
+edge 62 144 i_think_the 5396 61
+edge 63 88 i_think_it's 5962 97
+edge 64 137 thing_you 4891 79
+edge 65 78 a 831 99
+edge 65 79 a 831 97
+edge 65 81 a 831 86
+edge 65 83 a 831 63
+edge 66 78 are 872 76
+edge 67 130 i_think_it 5024 72
+edge 67 139 i_think_it 5024 83
+edge 67 140 i_think_it 5024 91
+edge 67 143 i_think_it 5100 102
+edge 67 144 i_think_it 5100 100
+edge 67 145 i_think_it 5100 106
+edge 67 177 i_think_it 11551 82
+edge 68 143 i_think_if 5345 94
+edge 69 84 i_think 3694 55
+edge 69 92 i_think 3616 68
+edge 69 93 i_think 3616 48
+edge 69 95 i_think 3694 104
+edge 69 97 i_think 3694 35
+edge 69 99 i_think 3694 42
+edge 69 105 i_think 3694 90
+edge 69 106 i_think 3694 36
+edge 69 107 i_think 3694 28
+edge 69 108 i_think 3940 107
+edge 69 109 i_think 3940 41
+edge 69 111 i_think 3940 52
+edge 69 114 i_think 4512 110
+edge 69 115 i_think 4512 82
+edge 69 117 i_think 4512 106
+edge 69 119 i_think 4512 100
+edge 69 120 i_think 4512 83
+edge 69 135 i_think 4512 102
+edge 70 78 or 872 87
+edge 70 81 or 872 79
+edge 71 77 i 835 116
+edge 71 78 i 835 88
+edge 71 79 i 835 107
+edge 71 81 i 835 97
+edge 71 83 i 835 84
+edge 72 77 uh 910 108
+edge 72 78 uh 910 89
+edge 72 79 uh 910 99
+edge 72 80 uh 910 97
+edge 72 81 uh 910 85
+edge 72 83 uh 910 71
+edge 73 138 taking 4710 98
+edge 74 138 they_can 4561 72
+edge 74 140 they_can 4561 72
+edge 74 142 they_can 4561 100
+edge 75 138 taken 4640 96
+edge 76 137 they 4978 76
+edge 77 123 think_i 3778 105
+edge 77 124 think_i 3778 84
+edge 77 125 think_i 3778 32
+edge 77 126 think_i 3778 65
+edge 77 127 think_i 3778 71
+edge 77 128 think_i 3778 62
+edge 77 136 think_i 3778 88
+edge 77 137 think_i 3778 92
+edge 77 175 think_i 10209 87
+edge 78 129 thinking 4015 96
+edge 78 131 thinking 4015 96
+edge 78 132 thinking 4015 71
+edge 78 133 thinking 4015 79
+edge 78 134 thinking 4015 105
+edge 78 138 thinking 4015 97
+edge 78 139 thinking 4015 75
+edge 78 140 thinking 4015 86
+edge 78 141 thinking 4015 95
+edge 78 142 thinking 4015 101
+edge 78 155 thinking 8595 76
+edge 78 159 thinking 8595 21
+edge 78 164 thinking 8835 73
+edge 79 130 thing_and 3990 82
+edge 79 131 thing_and 3990 92
+edge 79 133 thing_and 3990 62
+edge 79 134 thing_and 3990 101
+edge 79 138 thing_and 3990 93
+edge 79 139 thing_and 3990 74
+edge 79 140 thing_and 3990 82
+edge 79 141 thing_and 3990 91
+edge 79 142 thing_and 3990 97
+edge 80 112 think_of 3538 32
+edge 80 116 think_of 3538 96
+edge 80 118 think_of 3538 90
+edge 80 121 think_of 3778 98
+edge 80 122 think_of 3778 101
+edge 80 123 think_of 3778 100
+edge 80 125 think_of 3778 91
+edge 80 126 think_of 3778 106
+edge 80 127 think_of 3778 110
+edge 80 128 think_of 3778 101
+edge 80 136 think_of 3778 83
+edge 80 137 think_of 3778 102
+edge 80 177 think_of 10616 44
+edge 80 178 think_of 11752 56
+edge 81 90 think 2769 53
+edge 81 92 think 2769 72
+edge 81 93 think 2769 57
+edge 81 95 think 2847 105
+edge 81 96 think 2847 28
+edge 81 97 think 2847 37
+edge 81 99 think 2847 46
+edge 81 104 think 2847 57
+edge 81 105 think 2847 91
+edge 81 106 think 2847 40
+edge 81 107 think 2847 32
+edge 81 108 think 3093 108
+edge 81 109 think 3093 49
+edge 81 110 think 3093 64
+edge 81 111 think 3093 57
+edge 81 113 think 3665 102
+edge 81 114 think 3665 111
+edge 81 115 think 3665 76
+edge 81 117 think 3665 87
+edge 81 119 think 3665 101
+edge 81 120 think 3665 84
+edge 81 135 think 3665 86
+edge 82 138 they_can 4338 72
+edge 82 140 they_can 4338 72
+edge 82 142 they_can 4338 100
+edge 83 89 thing 2558 48
+edge 83 90 thing 2677 69
+edge 83 91 thing 2677 51
+edge 83 92 thing 2677 78
+edge 83 93 thing 2677 44
+edge 83 94 thing 2677 25
+edge 83 95 thing 2833 92
+edge 83 97 thing 2833 52
+edge 83 98 thing 2833 95
+edge 83 99 thing 2833 56
+edge 83 100 thing 2833 49
+edge 83 101 thing 2833 37
+edge 83 102 thing 2833 110
+edge 83 103 thing 2833 55
+edge 83 105 thing 2833 66
+edge 83 107 thing 2833 40
+edge 83 109 thing 3124 48
+edge 83 122 thing 3911 104
+edge 83 123 thing 3911 103
+edge 83 125 thing 3911 90
+edge 83 126 thing 3911 109
+edge 83 127 thing 3911 113
+edge 83 136 thing 3911 81
+edge 83 137 thing 3911 105
+edge 84 143 of 1517 99
+edge 85 150 i_think 4349 42
+edge 85 151 i_think 4566 66
+edge 85 152 i_think 4566 36
+edge 85 154 i_think 4566 48
+edge 85 155 i_think 4566 88
+edge 85 159 i_think 4566 55
+edge 85 160 i_think 4566 99
+edge 85 163 i_think 4815 98
+edge 85 164 i_think 4815 80
+edge 86 171 think_of 4821 93
+edge 86 172 think_of 4821 82
+edge 86 177 think_of 4821 44
+edge 86 178 think_of 5773 56
+edge 87 164 thank 4133 45
+edge 88 171 think_of 4483 93
+edge 88 172 think_of 4483 82
+edge 88 177 think_of 4483 44
+edge 88 178 think_of 5435 56
+edge 89 137 the 1509 102
+edge 89 139 the 1771 54
+edge 89 141 the 1771 68
+edge 90 147 and 2063 91
+edge 91 138 of 1496 99
+edge 92 138 an 1249 102
+edge 93 138 in 1249 103
+edge 93 139 in 1249 80
+edge 93 140 in 1249 90
+edge 93 141 in 1249 101
+edge 93 142 in 1249 107
+edge 94 143 is 1743 105
+edge 95 172 i_think_it 6528 98
+edge 95 177 i_think_it 6528 82
+edge 96 143 the 1631 102
+edge 96 144 the 1631 68
+edge 96 146 the 1631 54
+edge 97 143 they 1803 76
+edge 98 175 i_think_the 6131 72
+edge 99 136 a 1007 63
+edge 99 137 a 1007 105
+edge 100 135 or 938 96
+edge 101 135 i 946 108
+edge 102 155 to_think 5270 65
+edge 103 143 it 1458 108
+edge 104 143 @reject@ 1640 92
+edge 105 150 i_think 4887 42
+edge 105 151 i_think 5104 66
+edge 105 152 i_think 5104 36
+edge 105 154 i_think 5104 48
+edge 105 155 i_think 5104 88
+edge 105 159 i_think 5104 55
+edge 105 160 i_think 5104 99
+edge 105 163 i_think 5353 98
+edge 105 164 i_think 5353 80
+edge 106 143 is 1590 105
+edge 107 143 we 1705 73
+edge 107 145 we 1705 76
+edge 108 155 to_think 4993 65
+edge 109 137 uh 989 97
+edge 110 137 or 923 96
+edge 111 137 are 923 101
+edge 112 143 a 778 105
+edge 112 146 a 778 63
+edge 113 176 thing_and 5736 73
+edge 114 173 think_i 5047 103
+edge 114 174 think_i 5047 104
+edge 114 175 think_i 5047 87
+edge 115 149 think 3935 28
+edge 115 150 think 4083 46
+edge 115 151 think 4300 70
+edge 115 152 think 4300 40
+edge 115 153 think 4300 72
+edge 115 154 think 4300 57
+edge 115 155 think 4300 102
+edge 115 156 think 4300 64
+edge 115 157 think 4300 49
+edge 115 158 think 4300 24
+edge 115 159 think 4300 74
+edge 115 160 think 4300 82
+edge 115 161 think 4300 57
+edge 115 162 think 4549 123
+edge 115 163 think 4549 99
+edge 115 164 think 4549 78
+edge 115 165 think 4549 75
+edge 116 172 i_think_it 5952 98
+edge 116 176 i_think_it 5649 82
+edge 117 166 think_it 5405 118
+edge 117 167 think_it 5405 88
+edge 117 168 think_it 5405 75
+edge 117 169 think_it 5405 95
+edge 117 170 think_it 5405 94
+edge 117 176 think_it 5405 78
+edge 118 150 i_think 4167 42
+edge 118 151 i_think 4384 66
+edge 118 152 i_think 4384 36
+edge 118 154 i_think 4384 48
+edge 118 155 i_think 4384 88
+edge 118 159 i_think 4384 55
+edge 118 160 i_think 4384 99
+edge 118 163 i_think 4633 98
+edge 118 164 i_think 4633 80
+edge 119 177 thing_that 5782 76
+edge 120 150 thing 4105 56
+edge 120 152 thing 4329 25
+edge 120 155 thing 4329 104
+edge 120 159 thing 4329 51
+edge 120 164 thing 4565 82
+edge 121 148 thinking 5134 87
+edge 121 176 thinking 5570 73
+edge 122 176 thing_and 5479 73
+edge 123 177 thing_that 5525 76
+edge 124 175 think_they're 5136 74
+edge 125 149 think 3678 28
+edge 125 150 think 3826 46
+edge 125 151 think 4043 70
+edge 125 152 think 4043 40
+edge 125 153 think 4043 72
+edge 125 154 think 4043 57
+edge 125 155 think 4043 102
+edge 125 156 think 4043 64
+edge 125 157 think 4043 49
+edge 125 158 think 4043 24
+edge 125 159 think 4043 74
+edge 125 160 think 4043 82
+edge 125 161 think 4043 57
+edge 125 162 think 4292 123
+edge 125 163 think 4292 99
+edge 125 164 think 4292 78
+edge 125 165 think 4292 75
+edge 126 166 think_it 5148 118
+edge 126 167 think_it 5148 88
+edge 126 168 think_it 5148 75
+edge 126 169 think_it 5148 95
+edge 126 170 think_it 5148 94
+edge 126 176 think_it 5148 78
+edge 127 173 think_i 4790 103
+edge 127 174 think_i 4790 104
+edge 127 175 think_i 4790 87
+edge 128 171 think_that 5738 69
+edge 128 177 think_that 5738 76
+edge 129 171 think_that 5528 69
+edge 129 177 think_that 5528 76
+edge 130 172 i_think_it 5508 98
+edge 130 177 i_think_it 5508 82
+edge 131 176 thing_and 5269 73
+edge 132 148 thinking 4924 87
+edge 132 176 thinking 5360 73
+edge 133 150 i_think 3867 42
+edge 133 151 i_think 4084 66
+edge 133 152 i_think 4084 36
+edge 133 154 i_think 4084 48
+edge 133 155 i_think 4084 88
+edge 133 159 i_think 4084 55
+edge 133 160 i_think 4084 99
+edge 133 163 i_think 4333 98
+edge 133 164 i_think 4333 80
+edge 134 173 think_i 4580 103
+edge 134 174 think_i 4580 104
+edge 134 175 think_i 4580 87
+edge 135 171 think_of 5638 93
+edge 135 172 think_of 5638 82
+edge 135 177 think_of 5638 44
+edge 135 178 think_of 6590 56
+edge 136 150 thing 3848 56
+edge 136 152 thing 4072 25
+edge 136 155 thing 4072 104
+edge 136 159 thing 4072 51
+edge 136 164 thing 4308 82
+edge 137 171 think_of 5381 93
+edge 137 172 think_of 5381 82
+edge 137 177 think_of 5381 44
+edge 137 178 think_of 6333 56
+edge 138 171 think_of 5171 93
+edge 138 172 think_of 5171 82
+edge 138 177 think_of 5171 44
+edge 138 178 think_of 6123 56
+edge 139 150 thing 3638 56
+edge 139 152 thing 3862 25
+edge 139 155 thing 3862 104
+edge 139 159 thing 3862 51
+edge 139 164 thing 4098 82
+edge 140 149 think 3468 28
+edge 140 150 think 3616 46
+edge 140 151 think 3833 70
+edge 140 152 think 3833 40
+edge 140 153 think 3833 72
+edge 140 154 think 3833 57
+edge 140 155 think 3833 102
+edge 140 156 think 3833 64
+edge 140 157 think 3833 49
+edge 140 158 think 3833 24
+edge 140 159 think 3833 74
+edge 140 160 think 3833 82
+edge 140 161 think 3833 57
+edge 140 162 think 4082 123
+edge 140 163 think 4082 99
+edge 140 164 think 4082 78
+edge 140 165 think 4082 75
+edge 141 177 thing_that 5315 76
+edge 142 166 think_it 4938 118
+edge 142 167 think_it 4938 88
+edge 142 168 think_it 4938 75
+edge 142 169 think_it 4938 95
+edge 142 170 think_it 4938 94
+edge 142 176 think_it 4938 78
+edge 143 171 think_of 5001 93
+edge 143 172 think_of 5001 82
+edge 143 177 think_of 5001 44
+edge 143 178 think_of 5953 56
+edge 144 177 thing_that 5145 76
+edge 145 166 think_it 4768 118
+edge 145 167 think_it 4768 88
+edge 145 168 think_it 4768 75
+edge 145 169 think_it 4768 95
+edge 145 170 think_it 4768 94
+edge 145 176 think_it 4768 78
+edge 146 150 thing 3468 56
+edge 146 152 thing 3692 25
+edge 146 155 thing 3692 104
+edge 146 159 thing 3692 51
+edge 146 164 thing 3928 82
+edge 147 171 think_of 4657 93
+edge 147 172 think_of 4657 82
+edge 147 177 think_of 4657 44
+edge 147 178 think_of 5609 56
+edge 148 181 of_them 3987 27
+edge 148 185 of_them 3713 79
+edge 148 188 of_them 3987 66
+edge 148 193 of_them 3987 41
+edge 148 194 of_them 3987 55
+edge 148 197 of_them 3987 72
+edge 148 198 of_them 3987 91
+edge 149 175 the 1363 84
+edge 150 173 a 950 101
+edge 150 174 a 950 102
+edge 150 175 a 950 83
+edge 151 176 at 1383 49
+edge 152 176 is 1383 83
+edge 153 177 it 1471 85
+edge 154 177 in 1702 58
+edge 155 181 of_them 4263 36
+edge 155 185 of_them 3989 88
+edge 155 188 of_them 4263 75
+edge 155 193 of_them 4263 50
+edge 155 194 of_them 4263 64
+edge 155 197 of_them 4263 81
+edge 155 198 of_them 4263 100
+edge 156 175 or 902 78
+edge 157 177 if 1576 87
+edge 158 179 about 3678 56
+edge 159 177 of 1391 79
+edge 159 178 of 2343 61
+edge 160 206 the_most 8219 46
+edge 160 207 the_most 8219 65
+edge 161 175 are 902 80
+edge 162 182 them_are 4536 85
+edge 163 200 them_and 4658 89
+edge 163 201 them_and 4714 79
+edge 164 183 them 3690 54
+edge 164 184 them 3958 89
+edge 164 185 them 3958 79
+edge 164 186 them 4109 60
+edge 164 187 them 4109 95
+edge 164 188 them 4232 76
+edge 164 189 them 4232 89
+edge 164 190 them 4232 78
+edge 164 191 them 4232 46
+edge 164 192 them 4232 83
+edge 164 193 them 4232 54
+edge 164 194 them 4232 44
+edge 164 195 them 4232 35
+edge 164 196 them 4232 54
+edge 164 197 them 4232 63
+edge 164 198 them 4232 81
+edge 164 199 them 4367 100
+edge 165 180 then 4332 88
+edge 166 182 them_are 3434 85
+edge 167 197 him 3637 57
+edge 167 198 him 3637 70
+edge 168 180 then 3230 88
+edge 169 206 the_most 6848 46
+edge 169 207 the_most 6848 65
+edge 170 200 them_and 3556 89
+edge 170 201 them_and 3612 79
+edge 171 206 the_most 6623 46
+edge 171 207 the_most 6623 65
+edge 172 200 them_and 3337 89
+edge 172 201 them_and 3393 79
+edge 173 200 them_and 3962 89
+edge 173 201 them_and 4018 79
+edge 174 206 the_most 7270 46
+edge 174 207 the_most 7270 65
+edge 175 183 them 2994 54
+edge 175 184 them 3262 89
+edge 175 185 them 3262 79
+edge 175 186 them 3413 60
+edge 175 187 them 3413 95
+edge 175 188 them 3536 76
+edge 175 189 them 3536 89
+edge 175 190 them 3536 78
+edge 175 191 them 3536 46
+edge 175 192 them 3536 83
+edge 175 193 them 3536 54
+edge 175 194 them 3536 44
+edge 175 195 them 3536 35
+edge 175 196 them 3536 54
+edge 175 197 them 3536 63
+edge 175 198 them 3536 81
+edge 175 199 them 3671 100
+edge 176 183 them 2588 54
+edge 176 184 them 2856 89
+edge 176 185 them 2856 79
+edge 176 186 them 3007 60
+edge 176 187 them 3007 95
+edge 176 188 them 3130 76
+edge 176 189 them 3130 89
+edge 176 190 them 3130 78
+edge 176 191 them 3130 46
+edge 176 192 them 3130 83
+edge 176 193 them 3130 54
+edge 176 194 them 3130 44
+edge 176 195 them 3130 35
+edge 176 196 them 3130 54
+edge 176 197 them 3130 63
+edge 176 198 them 3130 81
+edge 176 199 them 3265 100
+edge 177 183 them 2369 54
+edge 177 184 them 2637 89
+edge 177 185 them 2637 79
+edge 177 186 them 2788 60
+edge 177 187 them 2788 95
+edge 177 188 them 2911 76
+edge 177 189 them 2911 89
+edge 177 190 them 2911 78
+edge 177 191 them 2911 46
+edge 177 192 them 2911 83
+edge 177 193 them 2911 54
+edge 177 194 them 2911 44
+edge 177 195 them 2911 35
+edge 177 196 them 2911 54
+edge 177 197 them 2911 63
+edge 177 198 them 2911 81
+edge 177 199 them 3046 100
+edge 178 197 him 2285 57
+edge 178 198 him 2285 70
+edge 179 197 him 1360 57
+edge 179 198 him 1360 70
+edge 180 214 as_the 6952 80
+edge 181 202 are 402 96
+edge 182 214 as_the 6393 80
+edge 183 208 with 4415 31
+edge 184 213 was_a 7124 53
+edge 185 204 those 3279 49
+edge 186 206 this 3919 39
+edge 187 213 there's_a 6742 69
+edge 188 212 is_that 7251 84
+edge 189 206 us 3507 48
+edge 189 207 us 3507 32
+edge 190 209 is_the 3942 38
+edge 191 202 or 402 91
+edge 192 213 is_to 6659 81
+edge 193 204 is 3253 37
+edge 193 205 is 3440 26
+edge 194 203 as 2764 37
+edge 194 204 as 3254 41
+edge 195 202 a 400 100
+edge 196 202 uh 486 87
+edge 197 210 as_a 4812 48
+edge 197 211 as_a 5754 50
+edge 197 213 as_a 6470 67
+edge 198 214 as_the 6583 80
+edge 199 213 it_was_a 6537 49
+edge 200 214 as_the 6240 80
+edge 201 210 as_a 4311 48
+edge 201 211 as_a 5253 50
+edge 201 213 as_a 5969 67
+edge 202 214 as_the 6311 80
+edge 203 213 to 4028 62
+edge 204 213 uh 3221 67
+edge 205 213 a 3267 55
+edge 206 213 uh 2859 67
+edge 207 213 a 3069 55
+edge 208 213 uh 2708 67
+edge 209 213 uh 2589 67
+edge 210 213 uh 1750 67
+edge 211 213 a 806 55
+edge 212 215 three 4923 87
+edge 213 215 three 5622 87
+edge 214 215 three 5045 87
+edge 215 216 rivers 6878 99
+edge 215 217 rivers 6878 66
+edge 216 218 falling 9418 31
+edge 217 218 flowing 9136 38
+edge 218 219 -silence- 1391 1
+edge 219 220 in 2665 57
+edge 220 221 parallel 10744 61
+edge 220 222 parallel 10744 87
+edge 220 223 parallel 10744 82
+edge 220 224 parallel 10744 95
+edge 220 225 parallel 10744 53
+edge 220 226 parallel 10744 89
+edge 220 227 parallel 10744 83
+edge 220 228 parallel 10744 75
+edge 220 229 parallel 10744 76
+edge 220 230 parallel 10744 87
+edge 220 231 parallel 10744 143
+edge 220 232 parallel 10744 76
+edge 220 233 parallel 10744 78
+edge 220 234 parallel 10744 91
+edge 220 235 parallel 10744 80
+edge 220 236 parallel 10744 83
+edge 221 237 -silence- 1962 0
+edge 222 251 -silence- 2211 9
+edge 223 242 -silence- 2077 0
+edge 224 247 -silence- 2077 0
+edge 225 241 -silence- 2077 1
+edge 226 244 -silence- 2077 1
+edge 227 239 -silence- 2077 0
+edge 228 252 -silence- 2373 0
+edge 229 249 -silence- 2211 0
+edge 230 240 -silence- 2077 4
+edge 231 238 -silence- 2077 0
+edge 232 243 -silence- 2077 0
+edge 233 248 -silence- 2211 0
+edge 234 246 -silence- 2077 4
+edge 235 245 -silence- 2077 18
+edge 236 250 -silence- 2211 2
+edge 237 256 it 4205 101
+edge 238 255 enya 3366 89
+edge 239 254 then_you 3536 33
+edge 239 255 then_you 3536 82
+edge 240 255 i_mean_you 3867 69
+edge 241 256 in 4159 106
+edge 242 253 and_he 3551 105
+edge 243 253 any 3631 101
+edge 244 254 or_you 3639 42
+edge 244 255 or_you 3639 106
+edge 245 275 you_have 10671 40
+edge 245 277 you_have 8716 94
+edge 246 254 and_you're 3362 77
+edge 246 255 and_you're 3362 101
+edge 247 276 have_uh 13328 33
+edge 247 284 have_uh 15254 19
+edge 248 254 when_you 3725 28
+edge 248 255 when_you 3725 76
+edge 249 254 and_you 3324 26
+edge 249 255 and_you 3324 88
+edge 250 255 in_your 3400 105
+edge 251 255 on_your 3400 96
+edge 252 255 that_you 3669 70
+edge 253 276 have_uh 9024 33
+edge 253 284 have_uh 10950 19
+edge 254 257 have 4025 24
+edge 254 258 have 4383 16
+edge 254 259 have 4383 138
+edge 254 260 have 4383 64
+edge 254 261 have 4965 69
+edge 254 262 have 4965 93
+edge 254 263 have 4965 79
+edge 254 264 have 4965 98
+edge 254 265 have 4965 110
+edge 254 266 have 5211 130
+edge 254 267 have 5211 79
+edge 254 268 have 6196 136
+edge 254 269 have 6196 86
+edge 254 270 have 6458 81
+edge 254 271 have 6686 77
+edge 254 272 have 6686 58
+edge 254 273 have 6686 41
+edge 254 274 have 6920 86
+edge 254 275 have 6920 70
+edge 254 277 have 4965 99
+edge 255 276 have_uh 8831 33
+edge 255 284 have_uh 10757 19
+edge 256 276 have_uh 8652 33
+edge 256 284 have_uh 10578 19
+edge 257 278 the 1506 64
+edge 258 277 a 682 63
+edge 258 279 a 1782 90
+edge 258 280 a 2079 51
+edge 259 284 vile 5904 27
+edge 260 284 about 6412 25
+edge 261 284 thought 5972 23
+edge 262 283 files 5690 16
+edge 263 282 bought 3791 38
+edge 263 284 bought 6010 35
+edge 264 284 filed 5696 29
+edge 265 284 bob 5824 23
+edge 266 284 bout 5445 19
+edge 267 281 by 2388 40
+edge 268 284 op 4379 25
+edge 269 284 off 4534 19
+edge 270 284 up 4615 20
+edge 271 284 are 4386 27
+edge 272 284 our 4386 35
+edge 273 284 no 4705 19
+edge 274 284 out 4123 16
+edge 275 284 uh 4068 15
+edge 276 284 uh 2148 15
+edge 277 284 file 5605 17
+edge 278 284 file 5439 17
+edge 279 284 off 4791 19
+edge 280 284 uh 4837 15
+edge 281 284 uh 3162 15
+edge 282 284 out 1981 16
+edge 283 285 -silence- 274 0
+edge 284 285 -silence- 37 0
