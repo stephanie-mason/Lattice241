@@ -1,13 +1,13 @@
-/* 
+/*
  * Program2.java
  *
  * The driver program for CSCI 241's Program 2
  *
  * Creates Lattice objects for each lattice in the lattice list input file
- * searches them to find and print the best hypothesis, and prints 
+ * searches them to find and print the best hypothesis, and prints
  * various lattice statistics
- * 
- * Do not modify this file.  
+ *
+ * Do not modify this file.
  *
  * Brian Hutchinson
  * January 2016
@@ -19,13 +19,13 @@
  * java Program2 latticeListFilename lmScale outputDir
  *
  * where the arguments are
- * 
+ *
  *   latticeListFilename    a plaintext file with one line per lattice
  *                          each line contains two strings, separated by a space
  *                          the first string is the filename for a lattice file
  *                          the second string is the filename for a ref file
- *   lmScale                a non-negative number that specifies how much to weight 
- *                          the "language model" score, relative to the 
+ *   lmScale                a non-negative number that specifies how much to weight
+ *                          the "language model" score, relative to the
  *                          "acoustic model" score
  *   outputDir              a directory where output lattices and dot files will
  *                          be written, one for each line in the lattice list
@@ -37,7 +37,7 @@ public class Program2 {
     private static final String slash = "/"; // You may need to change this to "\" on Windows...
 
     public static void main(String[] args) {
-    
+
         // Check and load arguments
         if( args.length != 3 ) {
             System.err.println("Error: Wrong number of arguments.");
@@ -64,8 +64,8 @@ public class Program2 {
 
             // Read next line in latticeListFilename
             String latticeFilename = input.next();
-            String refFilename = input.next(); 
-        
+            String refFilename = input.next();
+
             // Build the lattice
             Lattice lattice = new Lattice(latticeFilename);
             System.out.println("\nUtterance " + lattice.getUtteranceID());
@@ -83,11 +83,11 @@ public class Program2 {
             System.out.println("Lattice density: " + new java.text.DecimalFormat("0.000").format(lattice.getLatticeDensity()));
             java.util.HashSet<String> words = lattice.uniqueWordsAtTime(0.5);
             printWordSet(words,outputDir + slash + lattice.getUtteranceID() + ".wordsAtTime");
-            System.out.print("Locations of -silence-: "); 
+            System.out.print("Locations of -silence-: ");
             lattice.printSortedHits("-silence-");
-            System.out.print("Locations of i: "); 
+            System.out.print("Locations of i: ");
             lattice.printSortedHits("i");
-        
+
             // Write lattice to output dir in dot and lattice formats
             lattice.writeAsDot(outputDir + slash + lattice.getUtteranceID() + ".dot");
             String latticeOutputFilename = outputDir + slash + lattice.getUtteranceID() + ".lattice";
@@ -97,12 +97,12 @@ public class Program2 {
             }
             lattice.saveAsFile(latticeOutputFilename);
         }
-    
+
         System.out.println("Avg WER = " + totalWER/numFiles);
 
         return;
     }
-                
+
 
     private static void printReference(String refFilename) {
         java.util.Scanner refInput = null;
@@ -123,7 +123,7 @@ public class Program2 {
     private static void printWordSet(java.util.HashSet<String> words, String outFilename) {
 		if( words == null ) {
 			return;
-		}	
+		}
         java.io.PrintStream output = null;
         try {
             output = new java.io.PrintStream(outFilename);

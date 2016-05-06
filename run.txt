@@ -1,0 +1,1 @@
+java Program2 tinyLatticeList.txt 8.0 outputDirectory
