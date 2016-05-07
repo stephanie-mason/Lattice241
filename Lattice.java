@@ -258,6 +258,30 @@ public class Lattice {
   //        - http://en.wikipedia.org/wiki/DOT_%28graph_description_language%29
   //        - http://www.graphviz.org/pdf/dotguide.pdf
   public void writeAsDot(String dotFilename) {
+    try{
+      java.io.PrintStream output = new java.io.PrintStream(new java.io.FileOutputStream(dotFilename));
+      System.out.println("output filename is: " + dotFilename);
+
+      // header
+      output.println("digraph g {");
+      output.println("  rankdir=\"LR\"");
+
+      // edge definitions
+      for(int i = 0; i < numNodes; i++) {
+        for (int j = 0; j < numNodes; j++) {
+          if (this.adjMatrix[i][j] != null) {
+            output.println("  " + i + " -> " + j + "[label = \"" + this.adjMatrix[i][j].getLabel() + "\"]");
+          }
+        }
+      }
+
+      output.println("}");
+      output.close();
+      
+    } catch (java.io.FileNotFoundException e) {
+      System.out.println("Error: Unable to save to " + dotFilename + ". Check to see directory exists.");
+      System.exit(1);
+    }
     return;
   }
 
@@ -271,7 +295,6 @@ public class Lattice {
   public void saveAsFile(String latticeOutputFilename) {
     try{
       java.io.PrintStream output = new java.io.PrintStream(new java.io.FileOutputStream(latticeOutputFilename));
-      System.out.println("output filename is: " + latticeOutputFilename);
       output.print(this.toString());
       output.close();
     } catch (java.io.FileNotFoundException e) {
