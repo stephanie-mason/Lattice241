@@ -56,13 +56,9 @@ public class Lattice {
   //         "Error: Not able to parse file " + latticeFilename
   //       and exit with status (return code) 2
   public Lattice(String latticeFilename) {
-    System.out.println("");
-    System.out.println("-----------------------------------------------------");
-    System.out.println("STEPHANIE STUFF STARTS");
-    System.out.println("-----------------------------------------------------");
-    System.out.println("latticeFileName is " + latticeFilename);
-
     java.util.Scanner input = null;
+
+    // open the file
     try {
       input = new java.util.Scanner(new java.io.File(latticeFilename));
     } catch( java.io.FileNotFoundException e ) {
@@ -74,29 +70,21 @@ public class Lattice {
       System.exit(2);
     }
 
-    System.out.println("File opened successfully! ");
-
-    //get the id
+    // populate variables from the lattice file
     input.next(); //"id"
     this.utteranceID = input.next();
-    System.out.println("ID: " + utteranceID);
-
 
     input.next(); //"start"
     this.startIdx = input.nextInt();
-    System.out.println("start: " + startIdx);
 
     input.next(); //"end"
     this.endIdx = input.nextInt();
-    System.out.println("end: " + endIdx);
 
     input.next(); //"numNodes"
     this.numNodes = input.nextInt();
-    System.out.println("numNodes: " + numNodes);
 
     input.next(); //"numEdges"
     this.numEdges = input.nextInt();
-    System.out.println("numEdges: " + numEdges);
 
     this.nodeTimes = new double[numNodes];
 
@@ -105,11 +93,9 @@ public class Lattice {
       int node = input.nextInt();
       double timeStamp = input.nextDouble();
       nodeTimes[node] = timeStamp;
-      System.out.println("Timestamp for node " + node + ": " + nodeTimes[node]);
     }
 
     this.adjMatrix = new Edge[numNodes][numNodes];
-    //adjMatrix[0][0] = new Edge("label", 1, 7);
 
     for (int i = 0; i < numEdges; i++) {
       input.next(); //"edge"
@@ -121,20 +107,6 @@ public class Lattice {
 
       adjMatrix[startNode][endNode] = new Edge(label, amScore, lmScore);
     }
-
-    //Table
-    System.out.println();
-    System.out.println("All Edges:" + numNodes);
-    for(int i = 0; i < numNodes; i++) {
-      for (int j = 0; j < numNodes; j++) {
-        if (adjMatrix[i][j] != null) {
-          System.out.println("adjMatrix[" + i + "][" + j + "]: " + adjMatrix[i][j].getLabel() + " " + adjMatrix[i][j].getAmScore() + " " + adjMatrix[i][j].getLmScore());
-        }
-      }
-    }
-
-
-    //END TESTING
 
     return;
   }
@@ -186,12 +158,38 @@ public class Lattice {
   //    - A StringBuilder is asymptotically more efficient for accumulating a
   //      String than repeated concatenation
   public String toString() {
-    return "";
+    java.lang.StringBuilder newLattice = new StringBuilder();
+    newLattice.append("id " + this.getUtteranceID());
+    newLattice.append("\nstart " + 0);
+    newLattice.append("\nend " + (this.getNumNodes() - 1));
+    newLattice.append("\nnumNodes " + this.getNumNodes());
+    newLattice.append("\nnumEdges " + this.getNumEdges());
+
+    for (int i = 0; i < this.getNumNodes(); i++) {
+      newLattice.append("\nnode " + i + " ");
+      newLattice.append(String.format("%.2f", this.nodeTimes[i]));
+    }
+
+    for(int i = 0; i < numNodes; i++) {
+      for (int j = 0; j < numNodes; j++) {
+        if (this.adjMatrix[i][j] != null) {
+          newLattice.append("\nedge " + i + " " + j + " ");
+          newLattice.append(this.adjMatrix[i][j].getLabel() + " ");
+          newLattice.append(this.adjMatrix[i][j].getAmScore() + " ");
+          newLattice.append(this.adjMatrix[i][j].getLmScore());
+        }
+      }
+    }
+
+    String finalString = newLattice.toString();
+
+    return finalString;
   }
 
   // decode
   // Pre-conditions:
   //    - lmScale specifies how much lmScore should be weighted
+  //        it is input into the console when the program is run
   //        the overall weight for an edge is amScore + lmScale * lmScore
   // Post-conditions:
   //    - A new Hypothesis object is returned that contains the shortest path
@@ -269,6 +267,8 @@ public class Lattice {
   // Note:
   //    - This output file should be in the same format as the input .lattice file
   public void saveAsFile(String latticeOutputFilename) {
+    System.out.println("Saving...");
+    this.toString();
     return;
   }
 
