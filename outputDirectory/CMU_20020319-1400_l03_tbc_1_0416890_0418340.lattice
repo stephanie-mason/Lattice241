@@ -1,0 +1,72 @@
+id CMU_20020319-1400_l03_tbc_1_0416890_0418340
+start 0
+end 25
+numNodes 26
+numEdges 41
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.00
+node 4 0.00
+node 5 0.00
+node 6 0.00
+node 7 0.03
+node 8 0.03
+node 9 0.03
+node 10 0.03
+node 11 0.03
+node 12 0.03
+node 13 0.17
+node 14 0.18
+node 15 0.18
+node 16 0.18
+node 17 0.18
+node 18 0.21
+node 19 0.70
+node 20 0.72
+node 21 0.74
+node 22 0.74
+node 23 0.94
+node 24 1.36
+node 25 1.43
+edge 0 1 -silence- 0 35
+edge 0 2 -silence- 0 76
+edge 0 3 -silence- 0 68
+edge 0 4 -silence- 0 65
+edge 0 5 -silence- 0 65
+edge 0 6 -silence- 0 71
+edge 1 9 -silence- 25 0
+edge 2 7 -silence- 25 0
+edge 3 12 -silence- 25 0
+edge 4 10 -silence- 25 4
+edge 5 11 -silence- 25 0
+edge 6 8 -silence- 25 0
+edge 7 14 their 2340 107
+edge 7 15 their 2340 129
+edge 7 16 their 2340 122
+edge 8 14 they_are 2625 108
+edge 9 13 the 2763 87
+edge 10 14 there_are 2526 111
+edge 11 14 there 2340 116
+edge 11 15 there 2340 138
+edge 11 16 there 2340 131
+edge 11 17 there 2340 35
+edge 12 14 they're 2340 109
+edge 12 15 they're 2340 131
+edge 12 16 they're 2340 124
+edge 12 17 they're 2340 42
+edge 13 21 manual 8552 88
+edge 13 22 manual 8552 56
+edge 14 21 manual 8304 88
+edge 14 22 manual 8304 56
+edge 15 19 mango 7782 86
+edge 16 20 manuals 8339 85
+edge 17 18 a 847 83
+edge 18 21 manual 7749 88
+edge 18 22 manual 7749 56
+edge 19 24 online 7449 21
+edge 20 24 online 7094 21
+edge 21 24 online 6788 21
+edge 22 23 on 2334 57
+edge 23 24 line 4756 17
+edge 24 25 -silence- 298 0

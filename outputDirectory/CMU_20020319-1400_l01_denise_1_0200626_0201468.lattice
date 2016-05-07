@@ -1,0 +1,19 @@
+id CMU_20020319-1400_l01_denise_1_0200626_0201468
+start 0
+end 6
+numNodes 7
+numEdges 7
+node 0 0.00
+node 1 0.00
+node 2 0.00
+node 3 0.19
+node 4 0.19
+node 5 0.62
+node 6 0.83
+edge 0 1 -silence- 0 78
+edge 0 2 -silence- 0 38
+edge 1 3 -silence- 2325 0
+edge 2 4 -silence- 2325 0
+edge 3 5 ok 7414 12
+edge 4 5 okay 7414 7
+edge 5 6 -silence- 862 0

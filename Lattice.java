@@ -181,6 +181,8 @@ public class Lattice {
       }
     }
 
+    newLattice.append("\n");
+
     String finalString = newLattice.toString();
 
     return finalString;
@@ -267,8 +269,15 @@ public class Lattice {
   // Note:
   //    - This output file should be in the same format as the input .lattice file
   public void saveAsFile(String latticeOutputFilename) {
-    System.out.println("Saving...");
-    this.toString();
+    try{
+      java.io.PrintStream output = new java.io.PrintStream(new java.io.FileOutputStream(latticeOutputFilename));
+      System.out.println("output filename is: " + latticeOutputFilename);
+      output.print(this.toString());
+      output.close();
+    } catch (java.io.FileNotFoundException e) {
+      System.out.println("Error: Unable to save to " + latticeOutputFilename + ". Check to see directory exists.");
+      System.exit(1);
+    }
     return;
   }
 
