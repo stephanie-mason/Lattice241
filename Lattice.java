@@ -206,23 +206,44 @@ public class Lattice {
   // Notes:
   //    - It is okay if this algorithm has time complexity O(V^2)
   public Hypothesis decode(double lmScale) { //decode is DAG-Shortest-paths?
+    double[] distance = new double[numNodes];
 
     Hypothesis decodeHypothesis = new Hypothesis();
 
-    topologicalSort();
+    int[] sortedArray = topologicalSort();
 
-    for(int i = startIdx; i <= endIdx; i++) {
+    //initialize single source...
+    //for each v in G
+    for (int i = startIdx; i <= endIdx; i++) {
+      //v.distance = infinity
+      distance[i] = java.lang.Double.POSITIVE_INFINITY;
+      //v.parent = nil
+    }
+    //source.distance = 0
+    distance[startIdx] = 0;
+
+    //for each vertex u (i), taken in top sorted order
+    for (int i : sortedArray) {
+      //for each vertex v(j) adj[u(i)]
       for (int j = startIdx; j <= endIdx; j++) {
         if (adjMatrix[i][j] != null) {
-
-          //decodeHypothesis.addWord(this.adjMatrix[i][j].getLabel(), this.adjMatrix[i][j].getCombinedScore(lmScale));
-          //System.out.println(decodeHypothesis.getHypothesisString());
-          //System.out.println("Score: " + decodeHypothesis.getPathScore());
-
+          //Relax...
+          //if v(j).distance > u(i).distance + w(u(i),v(j))
+          if (distance[j] > distance[i] + adjMatrix[i][j].getCombinedScore(lmScale)) {
+            //v(j).distance = u(i).distance + w(u,v)
+            distance[j] = distance[i] + adjMatrix[i][j].getCombinedScore(lmScale);
+            //v.parent = u
+          }
         }
       }
     }
 
+      //now need to figure out how to implement those distance, and get the shortest path.. then add words to hyptohesis
+      //use countAllPaths?
+
+    //decodeHypothesis.addWord(adjMatrix[i][j].getLabel(), adjMatrix[i][j].getCombinedScore(lmScale));
+    //System.out.println(decodeHypothesis.getHypothesisString());
+    //System.out.println("Score: " + decodeHypothesis.getPathScore());
     return decodeHypothesis;
   }
 
@@ -239,21 +260,24 @@ public class Lattice {
     boolean[] visited = new boolean[numNodes];
     java.util.ArrayList<Integer> sorted = new java.util.ArrayList<Integer>();
 
+    // initialize
     for (int i = startIdx; i <= endIdx; i++) {
       visited[i] = false;
     }
     time = 0;
+    // discover nodes
     for (int i = startIdx; i <= endIdx; i++) {
       if (visited[i] == false) {
         dfsVisit(i, visited, sorted);
       }
     }
 
-    System.out.println("Sorted: " + sorted);
+    int sortedArray[] = new int[sorted.size()];
+    // convert ArrayList to int[]
     for (int i = 0; i < sorted.size(); i++) {
       sortedArray[i] = sorted.get(i);
     }
-    
+
     return sortedArray;
   }
 
@@ -315,8 +339,6 @@ public class Lattice {
   public void writeAsDot(String dotFilename) {
     try{
       java.io.PrintStream output = new java.io.PrintStream(new java.io.FileOutputStream(dotFilename));
-      System.out.println("output filename is: " + dotFilename);
-
       // header
       output.println("digraph g {");
       output.println("  rankdir=\"LR\"");
