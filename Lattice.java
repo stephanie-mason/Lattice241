@@ -28,6 +28,7 @@ public class Lattice {
   //   Two dimensional array of Edge objects
   //   adjMatrix[i][j] == null means no edge (i,j)
   private double[] nodeTimes;       // Stores the timestamp for each node
+  private int time;                 // time count for DFS search
 
   // Constructor
 
@@ -88,7 +89,7 @@ public class Lattice {
 
     this.nodeTimes = new double[numNodes];
 
-    for (int i = 0; i < numNodes; i++ ){
+    for (int i = 0; i < numNodes; i++){
       input.next(); //"node"
       int node = input.nextInt();
       double timeStamp = input.nextDouble();
@@ -128,7 +129,7 @@ public class Lattice {
   // Post-conditions:
   //    - Returns the number of nodes in the lattice
   public int getNumNodes() {
-    return numNodes;
+    return this.numNodes;
   }
 
   // getNumEdges
@@ -137,7 +138,7 @@ public class Lattice {
   // Post-conditions:
   //    - Returns the number of edges in the lattice
   public int getNumEdges() {
-    return numEdges;
+    return this.numEdges;
   }
 
   // toString
@@ -159,24 +160,24 @@ public class Lattice {
   //      String than repeated concatenation
   public String toString() {
     java.lang.StringBuilder newLattice = new StringBuilder();
-    newLattice.append("id " + this.getUtteranceID());
+    newLattice.append("id " + getUtteranceID());
     newLattice.append("\nstart " + 0);
-    newLattice.append("\nend " + (this.getNumNodes() - 1));
-    newLattice.append("\nnumNodes " + this.getNumNodes());
-    newLattice.append("\nnumEdges " + this.getNumEdges());
+    newLattice.append("\nend " + (getNumNodes() - 1));
+    newLattice.append("\nnumNodes " + getNumNodes());
+    newLattice.append("\nnumEdges " + getNumEdges());
 
-    for (int i = 0; i < this.getNumNodes(); i++) {
+    for (int i = startIdx; i <= endIdx; i++) {
       newLattice.append("\nnode " + i + " ");
-      newLattice.append(String.format("%.2f", this.nodeTimes[i]));
+      newLattice.append(String.format("%.2f", nodeTimes[i]));
     }
 
-    for(int i = 0; i < numNodes; i++) {
-      for (int j = 0; j < numNodes; j++) {
-        if (this.adjMatrix[i][j] != null) {
+    for(int i = startIdx; i <= endIdx; i++) {
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null) {
           newLattice.append("\nedge " + i + " " + j + " ");
-          newLattice.append(this.adjMatrix[i][j].getLabel() + " ");
-          newLattice.append(this.adjMatrix[i][j].getAmScore() + " ");
-          newLattice.append(this.adjMatrix[i][j].getLmScore());
+          newLattice.append(adjMatrix[i][j].getLabel() + " ");
+          newLattice.append(adjMatrix[i][j].getAmScore() + " ");
+          newLattice.append(adjMatrix[i][j].getLmScore());
         }
       }
     }
@@ -204,8 +205,25 @@ public class Lattice {
   //    - java.lang.Double.POSITIVE_INFINITY represents positive infinity
   // Notes:
   //    - It is okay if this algorithm has time complexity O(V^2)
-  public Hypothesis decode(double lmScale) {
-    return new Hypothesis();
+  public Hypothesis decode(double lmScale) { //decode is DAG-Shortest-paths?
+
+    Hypothesis decodeHypothesis = new Hypothesis();
+
+    topologicalSort();
+
+    for(int i = startIdx; i <= endIdx; i++) {
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null) {
+
+          //decodeHypothesis.addWord(this.adjMatrix[i][j].getLabel(), this.adjMatrix[i][j].getCombinedScore(lmScale));
+          //System.out.println(decodeHypothesis.getHypothesisString());
+          //System.out.println("Score: " + decodeHypothesis.getPathScore());
+
+        }
+      }
+    }
+
+    return decodeHypothesis;
   }
 
   // topologicalSort
@@ -216,9 +234,46 @@ public class Lattice {
   //      For example, the 0'th element of the returned array has no
   //      incoming edges.  More generally, the node in the i'th element
   //      has no incoming edges from nodes in the i+1'th or later elements
+  //      ---- which is to say, the edges are all pointing to the end
   public int[] topologicalSort() {
-    return null;
+    boolean[] visited = new boolean[numNodes];
+    java.util.ArrayList<Integer> sorted = new java.util.ArrayList<Integer>();
+
+    for (int i = startIdx; i <= endIdx; i++) {
+      visited[i] = false;
+    }
+    time = 0;
+    for (int i = startIdx; i <= endIdx; i++) {
+      if (visited[i] == false) {
+        dfsVisit(i, visited, sorted);
+      }
+    }
+
+    System.out.println("Sorted: " + sorted);
+    for (int i = 0; i < sorted.size(); i++) {
+      sortedArray[i] = sorted.get(i);
+    }
+    
+    return sortedArray;
   }
+
+  // dfsVisit helper function for Depth First Search
+  private void dfsVisit(int i, boolean[] visited, java.util.ArrayList<Integer> sorted) {
+    time += 1;
+
+    for (int j = startIdx; j <= endIdx; j++) {
+      if (adjMatrix[i][j] != null) {
+        if (visited[j] == false) {
+          dfsVisit(j, visited, sorted);
+        }
+      }
+    }
+
+    visited[i] = true;
+    time += 1;
+    sorted.add(0, i);
+  }
+
 
   // countAllPaths
   // Pre-conditions:
@@ -267,17 +322,17 @@ public class Lattice {
       output.println("  rankdir=\"LR\"");
 
       // edge definitions
-      for(int i = 0; i < numNodes; i++) {
-        for (int j = 0; j < numNodes; j++) {
-          if (this.adjMatrix[i][j] != null) {
-            output.println("  " + i + " -> " + j + "[label = \"" + this.adjMatrix[i][j].getLabel() + "\"]");
+      for(int i = startIdx; i <= endIdx; i++) {
+        for (int j = startIdx; j <= endIdx; j++) {
+          if (adjMatrix[i][j] != null) {
+            output.println("  " + i + " -> " + j + " [label = \"" + adjMatrix[i][j].getLabel() + "\"]");
           }
         }
       }
 
       output.println("}");
       output.close();
-      
+
     } catch (java.io.FileNotFoundException e) {
       System.out.println("Error: Unable to save to " + dotFilename + ". Check to see directory exists.");
       System.exit(1);
@@ -295,7 +350,7 @@ public class Lattice {
   public void saveAsFile(String latticeOutputFilename) {
     try{
       java.io.PrintStream output = new java.io.PrintStream(new java.io.FileOutputStream(latticeOutputFilename));
-      output.print(this.toString());
+      output.print(toString());
       output.close();
     } catch (java.io.FileNotFoundException e) {
       System.out.println("Error: Unable to save to " + latticeOutputFilename + ". Check to see directory exists.");
