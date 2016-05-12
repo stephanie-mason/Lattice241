@@ -226,7 +226,7 @@ public class Lattice {
 
     System.out.println("Parent : Node : Distance");
     for(int node : topSorted)
-    System.out.println(parent[node] + " : " + node + " " + distance[node]);
+    System.out.println(parent[node] + " : " + node + " : " + distance[node]);
 
     return decodeHypothesis;
   }
@@ -279,6 +279,8 @@ public class Lattice {
     //pathSum = java.math.BigInteger.valueOf(90);
     //System.out.println("Big Integer: ");
     //System.out.println(pathSum);
+
+
 
     return null;
   }
@@ -368,14 +370,20 @@ public class Lattice {
   //      with the specified time
   //     (If the time is not within the time range of the lattice, the Hashset should be empty)
   public java.util.HashSet<String> uniqueWordsAtTime(double time) {
+    java.util.HashSet<String> uniqueWords = new java.util.HashSet<String>();
 
-    System.out.println("time: " + time);
-    for(double i : nodeTimes) {
-      System.out.println("I: " + i);
-      if (i == time) {
-        System.out.println("Time matches..." + time);
+    for(int i = startIdx; i < endIdx; i++) {
+      for(int j = startIdx; j < endIdx; j++) {
+        if (adjMatrix[i][j] != null) {
+          if (nodeTimes[i] <= time && nodeTimes[j] >= time) {
+            uniqueWords.add(adjMatrix[i][j].getLabel());
+        }
       }
     }
+  }
+
+
+    //each node has a time stamp, but the edge is a range of time... so if the input time falls in this range, add it tothe has shet.
 
     return null;
   }
