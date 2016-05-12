@@ -369,6 +369,15 @@ public class Lattice {
   //      with the specified time
   //     (If the time is not within the time range of the lattice, the Hashset should be empty)
   public java.util.HashSet<String> uniqueWordsAtTime(double time) {
+
+    System.out.println("time: " + time);
+    for(double i : nodeTimes) {
+      System.out.println("I: " + i);
+      if (i == time) {
+        System.out.println("Time matches..." + time);
+      }
+    }
+
     return null;
   }
 
@@ -384,6 +393,17 @@ public class Lattice {
   //    - java.util.Arrays.sort can be used to sort
   //    - PrintStream's format method can print numbers to two decimal places
   public void printSortedHits(String word) {
+    double midpoint = 0;
+
+    for(int i = startIdx; i <= endIdx; i++) {
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null && adjMatrix[i][j].getLabel().equals(word)) {
+          midpoint = (nodeTimes[i] + nodeTimes[j]) / 2;
+          System.out.print(String.format("%.2f", midpoint) + " ");
+        }
+      }
+    }
+
     return;
   }
 
