@@ -29,6 +29,7 @@ public class Lattice {
   //   adjMatrix[i][j] == null means no edge (i,j)
   private double[] nodeTimes;       // Stores the timestamp for each node
   private int time;                 // time count for DFS search
+  private int[] topSorted;          // array to store topologically sorted nodes
 
   // Constructor
 
@@ -107,6 +108,8 @@ public class Lattice {
       int lmScore = input.nextInt();
       adjMatrix[startNode][endNode] = new Edge(label, amScore, lmScore);
     }
+
+    this.topSorted = topologicalSort();
 
     return;
   }
@@ -210,10 +213,9 @@ public class Lattice {
     Hypothesis decodeHypothesis = new Hypothesis();
     double[] distance = new double[numNodes];
     int[] parent = new int[numNodes];
-    int[] sorted = topologicalSort();
 
     // Calculate shortest path and put it in an array
-    shortestPath(distance, parent, sorted, lmScale);
+    shortestPath(distance, parent, lmScale);
     int[] finalPath = backtrack(endIdx, parent);
 
     // Construct the hypothesis
@@ -269,6 +271,17 @@ public class Lattice {
   //        Instead of min'ing scores over the incoming edges, you'll want to
   //        do some other operation...
   public java.math.BigInteger countAllPaths() {
+    //java.math.BigInteger pathCount = new java.math.BigInteger();
+
+
+
+    for (int i : topSorted) {
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null) {
+
+        }
+      }
+    }
     return null;
   }
 
@@ -369,8 +382,7 @@ public class Lattice {
   // shortestPath
   // Finds the Shortest Path through the DAG
   // alters the parent and distance arrays
-  private void shortestPath(double[] distance, int[] parent, int[] sorted, double lmScale) {
-
+  private void shortestPath(double[] distance, int[] parent, double lmScale) {
     //initialize single source
     for (int i = startIdx; i <= endIdx; i++) {
       distance[i] = java.lang.Double.POSITIVE_INFINITY;
@@ -379,7 +391,7 @@ public class Lattice {
 
     distance[startIdx] = 0;
 
-    for (int i : sorted) {
+    for (int i : topSorted) {
       for (int j = startIdx; j <= endIdx; j++) {
         if (adjMatrix[i][j] != null) {
           // Relax
