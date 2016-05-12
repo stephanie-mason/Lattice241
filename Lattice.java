@@ -28,7 +28,7 @@ public class Lattice {
   //   Two dimensional array of Edge objects
   //   adjMatrix[i][j] == null means no edge (i,j)
   private double[] nodeTimes;       // Stores the timestamp for each node
-  private int time;                 // time count for DFS search
+  private int dfsTime;                 // time count for DFS search
   private int[] topSorted;          // array to store topologically sorted nodes
 
   // Constructor
@@ -224,6 +224,10 @@ public class Lattice {
       decodeHypothesis.addWord(adjMatrix[nodeParent][node].getLabel(), adjMatrix[nodeParent][node].getCombinedScore(lmScale));
     }
 
+    System.out.println("Parent : Node : Distance");
+    for(int node : topSorted)
+    System.out.println(parent[node] + " : " + node + " " + distance[node]);
+
     return decodeHypothesis;
   }
 
@@ -244,7 +248,7 @@ public class Lattice {
     for (int i = startIdx; i <= endIdx; i++) {
       visited[i] = false;
     }
-    time = 0;
+    dfsTime = 0;
 
     // discover nodes
     for (int i = startIdx; i <= endIdx; i++) {
@@ -271,17 +275,11 @@ public class Lattice {
   //        Instead of min'ing scores over the incoming edges, you'll want to
   //        do some other operation...
   public java.math.BigInteger countAllPaths() {
-    //java.math.BigInteger pathCount = new java.math.BigInteger();
+    java.math.BigInteger pathSum = java.math.BigInteger.valueOf(0);
+    //pathSum = java.math.BigInteger.valueOf(90);
+    //System.out.println("Big Integer: ");
+    //System.out.println(pathSum);
 
-
-
-    for (int i : topSorted) {
-      for (int j = startIdx; j <= endIdx; j++) {
-        if (adjMatrix[i][j] != null) {
-
-        }
-      }
-    }
     return null;
   }
 
@@ -293,7 +291,19 @@ public class Lattice {
   //      (# of non -silence- words in lattice) / (# seconds from start to end index)
   //      Note that multiwords (e.g. to_the) count as a single non-silence word
   public double getLatticeDensity() {
-    return 0.0;
+    int nonSilence = 0;
+    double seconds = nodeTimes[endIdx];
+
+    // # non -silence- words
+    for(int i = startIdx; i <= endIdx; i++) {
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null && !adjMatrix[i][j].getLabel().equals("-silence-")) {
+          nonSilence ++;
+        }
+      }
+    }
+
+    return nonSilence/seconds;
   }
 
   // writeAsDot - write lattice in dot format
@@ -424,7 +434,7 @@ public class Lattice {
   // discovers nodes and marks as finished
   // adds them to a sorted array as they are marked
   private void dfsVisit(int i, boolean[] visited, java.util.ArrayList<Integer> sorted) {
-    time += 1;
+    dfsTime += 1;
 
     for (int j = startIdx; j <= endIdx; j++) {
       if (adjMatrix[i][j] != null) {
@@ -435,7 +445,7 @@ public class Lattice {
     }
 
     visited[i] = true;
-    time += 1;
+    dfsTime += 1;
     sorted.add(0, i);
   }
 
