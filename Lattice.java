@@ -302,7 +302,6 @@ public class Lattice {
         }
       }
     }
-
     return nonSilence/seconds;
   }
 
