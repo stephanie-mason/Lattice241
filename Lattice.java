@@ -205,41 +205,24 @@ public class Lattice {
   //    - java.lang.Double.POSITIVE_INFINITY represents positive infinity
   // Notes:
   //    - It is okay if this algorithm has time complexity O(V^2)
-  public Hypothesis decode(double lmScale) { //decode is DAG-Shortest-paths?
-    double[] distance = new double[numNodes];
-
+  public Hypothesis decode(double lmScale) {
     Hypothesis decodeHypothesis = new Hypothesis();
-
-    int[] sortedArray = topologicalSort();
-
-    //initialize single source...
-    //for each v in G
-    for (int i = startIdx; i <= endIdx; i++) {
-      //v.distance = infinity
-      distance[i] = java.lang.Double.POSITIVE_INFINITY;
-      //v.parent = nil
+    double[] distance = new double[numNodes];
+    int[] parent = new int[numNodes];
+    int[] sorted = topologicalSort();
+/*
+    System.out.println("Parent : Node : Distances ");
+    for(int i = 0; i < numNodes; i++) {
+      System.out.println(parent[sorted[i]] + " : " + sorted[i] + " : " + distance[sorted[i]]);
     }
-    //source.distance = 0
-    distance[startIdx] = 0;
+*/
+    // Calculate shortest path and put it in an array
+    shortestPath(distance, parent, sorted, lmScale);
+    int[] finalPath = backtrack(endIdx, parent);
 
-    //for each vertex u (i), taken in top sorted order
-    for (int i : sortedArray) {
-      //for each vertex v(j) adj[u(i)]
-      for (int j = startIdx; j <= endIdx; j++) {
-        if (adjMatrix[i][j] != null) {
-          //Relax...
-          //if v(j).distance > u(i).distance + w(u(i),v(j))
-          if (distance[j] > distance[i] + adjMatrix[i][j].getCombinedScore(lmScale)) {
-            //v(j).distance = u(i).distance + w(u,v)
-            distance[j] = distance[i] + adjMatrix[i][j].getCombinedScore(lmScale);
-            //v.parent = u
-          }
-        }
-      }
-    }
-
-      //now need to figure out how to implement those distance, and get the shortest path.. then add words to hyptohesis
-      //use countAllPaths?
+    System.out.println("Our final, beautiful path:");
+    for(int i: finalPath)
+      System.out.print(i + " ");
 
     //decodeHypothesis.addWord(adjMatrix[i][j].getLabel(), adjMatrix[i][j].getCombinedScore(lmScale));
     //System.out.println(decodeHypothesis.getHypothesisString());
@@ -272,32 +255,10 @@ public class Lattice {
       }
     }
 
-    int sortedArray[] = new int[sorted.size()];
-    // convert ArrayList to int[]
-    for (int i = 0; i < sorted.size(); i++) {
-      sortedArray[i] = sorted.get(i);
-    }
+    int[] sortedArray = convertArray(sorted);
 
     return sortedArray;
   }
-
-  // dfsVisit helper function for Depth First Search
-  private void dfsVisit(int i, boolean[] visited, java.util.ArrayList<Integer> sorted) {
-    time += 1;
-
-    for (int j = startIdx; j <= endIdx; j++) {
-      if (adjMatrix[i][j] != null) {
-        if (visited[j] == false) {
-          dfsVisit(j, visited, sorted);
-        }
-      }
-    }
-
-    visited[i] = true;
-    time += 1;
-    sorted.add(0, i);
-  }
-
 
   // countAllPaths
   // Pre-conditions:
@@ -405,5 +366,88 @@ public class Lattice {
   //    - PrintStream's format method can print numbers to two decimal places
   public void printSortedHits(String word) {
     return;
+  }
+
+  // PRIVATE HELPER FUNCTIONS
+
+  // shortestPath
+  // Finds the Shortest Path through the DAG
+  // alters the parent and distance arrays
+  private void shortestPath(double[] distance, int[] parent, int[] sorted, double lmScale) {
+
+    //initialize single source...
+    //for each v in G
+    for (int i = startIdx; i <= endIdx; i++) {
+      //v.distance = infinity
+      distance[i] = java.lang.Double.POSITIVE_INFINITY;
+      //v.parent = nil
+      parent[i] = 0;
+    }
+    //source.distance = 0
+    distance[startIdx] = 0;
+
+    //for each vertex u (i), taken in top sorted order
+    for (int i : sorted) {
+      //for each vertex v(j) adj[u(i)]
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null) {
+          //Relax...
+          //if v(j).distance > u(i).distance + w(u(i),v(j))
+          if (distance[j] > distance[i] + adjMatrix[i][j].getCombinedScore(lmScale)) {
+            //v(j).distance = u(i).distance + w(u,v)
+            distance[j] = distance[i] + adjMatrix[i][j].getCombinedScore(lmScale);
+            //v.parent = u
+            parent[j] = i;
+          }
+        }
+      }
+    }
+  }
+
+  // Backtrack function for decode
+  // Walks backwards along a path to reach an earlier node
+  // Returns the new path
+  private int[] backtrack(int endNode, int[] parent) {
+    java.util.ArrayList<Integer> path = new java.util.ArrayList<Integer>();
+
+    while (endNode != 0) {
+      path.add(0, endNode);
+      endNode = parent[endNode];
+    }
+
+    int[] finalPath = convertArray(path);
+
+    return finalPath;
+  }
+
+  // dfsVisit used for Depth First Search
+  // discovers nodes and marks as finished
+  // adds them to a sorted array as they are marked
+  private void dfsVisit(int i, boolean[] visited, java.util.ArrayList<Integer> sorted) {
+    time += 1;
+
+    for (int j = startIdx; j <= endIdx; j++) {
+      if (adjMatrix[i][j] != null) {
+        if (visited[j] == false) {
+          dfsVisit(j, visited, sorted);
+        }
+      }
+    }
+
+    visited[i] = true;
+    time += 1;
+    sorted.add(0, i);
+  }
+
+  // convertArray
+  // Converts integer ArrayLists to simple Arrays
+  private int[] convertArray(java.util.ArrayList<Integer> list) {
+    int[] array = new int[list.size()];
+
+    for (int i = 0; i < list.size(); i++) {
+      array[i] = list.get(i);
+    }
+
+    return array;
   }
 }
