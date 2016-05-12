@@ -87,8 +87,8 @@ public class Lattice {
     input.next(); //"numEdges"
     this.numEdges = input.nextInt();
 
+    // populate nodeTimes variable
     this.nodeTimes = new double[numNodes];
-
     for (int i = 0; i < numNodes; i++){
       input.next(); //"node"
       int node = input.nextInt();
@@ -96,8 +96,8 @@ public class Lattice {
       nodeTimes[node] = timeStamp;
     }
 
+    // populate adjMatrix variable
     this.adjMatrix = new Edge[numNodes][numNodes];
-
     for (int i = 0; i < numEdges; i++) {
       input.next(); //"edge"
       int startNode = input.nextInt();
@@ -105,7 +105,6 @@ public class Lattice {
       String label = input.next();
       int amScore = input.nextInt();
       int lmScore = input.nextInt();
-
       adjMatrix[startNode][endNode] = new Edge(label, amScore, lmScore);
     }
 
@@ -166,11 +165,13 @@ public class Lattice {
     newLattice.append("\nnumNodes " + getNumNodes());
     newLattice.append("\nnumEdges " + getNumEdges());
 
+    // New line for each node
     for (int i = startIdx; i <= endIdx; i++) {
       newLattice.append("\nnode " + i + " ");
       newLattice.append(String.format("%.2f", nodeTimes[i]));
     }
 
+    // New line for each edge
     for(int i = startIdx; i <= endIdx; i++) {
       for (int j = startIdx; j <= endIdx; j++) {
         if (adjMatrix[i][j] != null) {
@@ -210,23 +211,17 @@ public class Lattice {
     double[] distance = new double[numNodes];
     int[] parent = new int[numNodes];
     int[] sorted = topologicalSort();
-/*
-    System.out.println("Parent : Node : Distances ");
-    for(int i = 0; i < numNodes; i++) {
-      System.out.println(parent[sorted[i]] + " : " + sorted[i] + " : " + distance[sorted[i]]);
-    }
-*/
+
     // Calculate shortest path and put it in an array
     shortestPath(distance, parent, sorted, lmScale);
     int[] finalPath = backtrack(endIdx, parent);
 
-    System.out.println("Our final, beautiful path:");
-    for(int i: finalPath)
-      System.out.print(i + " ");
+    // Construct the hypothesis
+    for(int node : finalPath) {
+      int nodeParent = parent[node];
+      decodeHypothesis.addWord(adjMatrix[nodeParent][node].getLabel(), adjMatrix[nodeParent][node].getCombinedScore(lmScale));
+    }
 
-    //decodeHypothesis.addWord(adjMatrix[i][j].getLabel(), adjMatrix[i][j].getCombinedScore(lmScale));
-    //System.out.println(decodeHypothesis.getHypothesisString());
-    //System.out.println("Score: " + decodeHypothesis.getPathScore());
     return decodeHypothesis;
   }
 
@@ -248,6 +243,7 @@ public class Lattice {
       visited[i] = false;
     }
     time = 0;
+
     // discover nodes
     for (int i = startIdx; i <= endIdx; i++) {
       if (visited[i] == false) {
@@ -375,28 +371,20 @@ public class Lattice {
   // alters the parent and distance arrays
   private void shortestPath(double[] distance, int[] parent, int[] sorted, double lmScale) {
 
-    //initialize single source...
-    //for each v in G
+    //initialize single source
     for (int i = startIdx; i <= endIdx; i++) {
-      //v.distance = infinity
       distance[i] = java.lang.Double.POSITIVE_INFINITY;
-      //v.parent = nil
       parent[i] = 0;
     }
-    //source.distance = 0
+
     distance[startIdx] = 0;
 
-    //for each vertex u (i), taken in top sorted order
     for (int i : sorted) {
-      //for each vertex v(j) adj[u(i)]
       for (int j = startIdx; j <= endIdx; j++) {
         if (adjMatrix[i][j] != null) {
-          //Relax...
-          //if v(j).distance > u(i).distance + w(u(i),v(j))
+          // Relax
           if (distance[j] > distance[i] + adjMatrix[i][j].getCombinedScore(lmScale)) {
-            //v(j).distance = u(i).distance + w(u,v)
             distance[j] = distance[i] + adjMatrix[i][j].getCombinedScore(lmScale);
-            //v.parent = u
             parent[j] = i;
           }
         }
