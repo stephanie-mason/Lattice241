@@ -224,10 +224,6 @@ public class Lattice {
       decodeHypothesis.addWord(adjMatrix[nodeParent][node].getLabel(), adjMatrix[nodeParent][node].getCombinedScore(lmScale));
     }
 
-    System.out.println("Parent : Node : Distance");
-    for(int node : topSorted)
-    System.out.println(parent[node] + " : " + node + " : " + distance[node]);
-
     return decodeHypothesis;
   }
 
@@ -275,14 +271,21 @@ public class Lattice {
   //        Instead of min'ing scores over the incoming edges, you'll want to
   //        do some other operation...
   public java.math.BigInteger countAllPaths() {
-    java.math.BigInteger pathSum = java.math.BigInteger.valueOf(0);
-    //pathSum = java.math.BigInteger.valueOf(90);
-    //System.out.println("Big Integer: ");
-    //System.out.println(pathSum);
+    int[] pathsToNode = new int[numNodes];
 
+    pathsToNode[startIdx] = 1;
 
+    for (int i : topSorted) {
+      for (int j = startIdx; j <= endIdx; j++) {
+        if (adjMatrix[i][j] != null) {
 
-    return null;
+          pathsToNode[j] = pathsToNode[j] + pathsToNode[i];
+
+        }
+      }
+    }
+
+    return java.math.BigInteger.valueOf(pathsToNode[endIdx]);
   }
 
   // getLatticeDensity
@@ -377,14 +380,10 @@ public class Lattice {
         if (adjMatrix[i][j] != null) {
           if (nodeTimes[i] <= time && nodeTimes[j] >= time) {
             uniqueWords.add(adjMatrix[i][j].getLabel());
+          }
         }
       }
     }
-  }
-
-
-    //each node has a time stamp, but the edge is a range of time... so if the input time falls in this range, add it tothe has shet.
-
     return null;
   }
 
